@@ -10,11 +10,14 @@ THIS REPO IS PRIVATE AND UNTIL WE HAVE PERMISSION MUST NOT BE SHARED.
 * we'll extract automatically data from:
   * FAIRSharing
   * Wikidata
+
+## Analysis
+
+We will use SPARQL to summarize and visualize the collected data.
   
+## License
   
-  ## License
-  
-  Data collected in the repository has multiple licenses. E.g. data from Wikidata is CC0.
-  If not otherwise specified, the data in this databases is CC0.
+Data collected in the repository has multiple licenses. E.g. data from Wikidata is CC0.
+If not otherwise specified, the data in this databases is CC0.
   
  
