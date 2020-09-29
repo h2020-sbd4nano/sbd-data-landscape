@@ -1,0 +1,5 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+
+<http://rdf.wikipathways.org/20200928/rdf/> a                           void:Dataset .
+
+
