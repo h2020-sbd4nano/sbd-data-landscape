@@ -1,0 +1,8 @@
+SELECT ?database ?databaseLabel ?licenseLabel WHERE {
+  VALUES ?dbType { wd:Q4117139 wd:Q2881060 }
+  ?database wdt:P31 ?dbType .
+  OPTIONAL {
+    ?database wdt:P275 ?license .
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "nl,en". }
+}
