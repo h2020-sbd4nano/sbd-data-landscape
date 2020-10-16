@@ -1,0 +1,16 @@
+#Two approaches: 
+# 1) Look for all data about nano -> Filter out the datasets
+# 2) Look at all biological & chemical databases -> Filter out the ones that contain data about nano
+
+
+#### Approach 1 ####
+SELECT ?item ?itemLabel ?classLabel ?licenseLabel
+WHERE
+{
+  VALUES ?dbTopic { wd:Q11468 wd:Q2518429 wd:Q967847 } # nanotech (1 dataset), nanotox (0 datasets), nanomaterials (4 datasets), 
+  ?item wdt:P921 ?dbTopic.
+  ?item wdt:P31/wdt:P279* wd:Q1172284.
+  OPTIONAL { ?item wdt:P31 ?class . }
+  OPTIONAL { ?item wdt:P275 ?license . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+} 
