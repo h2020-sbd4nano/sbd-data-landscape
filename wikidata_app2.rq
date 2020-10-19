@@ -1,0 +1,26 @@
+#Two approaches: 
+# 1) Look for all data about nano -> Filter out the datasets
+# 2) Look at all biological & chemical databases -> Filter out the ones that contain data about nano
+
+#### Approach 2 ####
+SELECT ?database ?databaseLabel ?dbDescr #?licenseLabel ?subjectLabel ?useLabel ?classLabel
+
+WHERE 
+{
+  VALUES ?dbType { wd:Q4117139 wd:Q2881060 } # Biological and chemical databases
+  ?database wdt:P31 ?dbType .
+
+  #### Problem: how to know what is in the database?
+  ### Tried to query data associated with the db, but poorly filled and not very informative
+  #OPTIONAL { ?database wdt:P275 ?license . }
+  #OPTIONAL { ?database wdt:P921 ?subject . }
+  #OPTIONAL { ?database wdt:P366 ?use . }
+  #OPTIONAL { ?database wdt:P2308 ?class . } 
+  
+  #### Filter on description containing certain words (list should be refined)
+  ?database schema:description ?dbDescr . 
+  FILTER(LANG(?dbDescr) = "en")  
+  FILTER(REGEX(LCASE(?dbDescr), "tox|nano|pathway")) .
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "nl,en". }
+} 
