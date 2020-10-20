@@ -5,7 +5,7 @@ THIS REPO IS PRIVATE AND UNTIL WE HAVE PERMISSION MUST NOT BE SHARED.
 ## Plan
 
 * create turtle files with metadata info of datasets and databases
-  * model *everything* for now as void:Dataset
+  * model *everything* for now as `void:Dataset`
 * keep manually added data in a separate file
 * we'll extract automatically data from:
   * FAIRSharing
