@@ -10,6 +10,7 @@ THIS REPO IS PRIVATE AND UNTIL WE HAVE PERMISSION MUST NOT BE SHARED.
 * we'll extract automatically data from:
   * FAIRSharing
   * Wikidata
+  * NanoWiki (Studies, RelationShips)
 
 ## Analysis
 
