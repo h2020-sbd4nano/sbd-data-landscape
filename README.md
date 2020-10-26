@@ -7,10 +7,15 @@ THIS REPO IS PRIVATE AND UNTIL WE HAVE PERMISSION MUST NOT BE SHARED.
 * create turtle files with metadata info of datasets and databases
   * model *everything* for now as `void:Dataset`
 * keep manually added data in a separate file
-* we'll extract automatically data from:
-  * FAIRSharing
-  * Wikidata
-  * NanoWiki (Studies, RelationShips)
+* we'll extract automatically data and models from:
+   * Data sets
+      * FAIRSharing
+      * Wikidata
+      * NanoWiki (Studies, RelationShips)
+   * Models
+      * JRC
+      * QSARDB
+      * NanoSolveIT / NanoInformaTIX
 
 ## Analysis
 
