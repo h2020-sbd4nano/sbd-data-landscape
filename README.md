@@ -2,6 +2,8 @@
 
 THIS REPO IS PRIVATE AND UNTIL WE HAVE PERMISSION MUST NOT BE SHARED.
 
+This repository relates to SbD4Nano Task 2.1.1 "Library of comprehensive data on ENMs properties and bioactivities".
+
 ## Plan
 
 * create turtle files with metadata info of datasets and databases
