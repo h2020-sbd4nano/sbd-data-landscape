@@ -16,6 +16,7 @@
 %  - driver (the same as physchem prop for models, but not necessarily for data sets)
 
 <https://www.wikidata.org/entity/Q99985086> a dct:Dataset ;
+   rdfs:label "Lung response to crystalline nanocellulose (CNC) exposure in rats" ;
    dct:license <http://example.com/unknown> ;
    sdb:hazard <> ; # OECD level
    sbd:appDomain <> ; # crystalline nanocellulose -> look up in ENM
