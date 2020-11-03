@@ -1,5 +1,17 @@
 @prefix void:  <http://rdfs.org/ns/void#> .
 
+% information that must be present, because the user must be able to find datasets and models
+% based on that information:
+%
+%  - license info
+%  - interface type (REST, SOAP, graphical user interface, ...)
+%  - highlevel hazards (OECD top level categories)
+%  - applicability domain (does the data set / model say something about the NM)
+%  - functional properties of NM product
+%  - physicochemical characteristics of NM (input)
+%  - (predicted) properties returned
+
 <http://rdf.wikipathways.org/20200928/rdf/> a                           void:Dataset .
+
 
 
