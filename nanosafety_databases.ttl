@@ -13,6 +13,7 @@
 %  - functional properties of NM product
 %  - physicochemical characteristics of NM (input)
 %  - (predicted) properties returned
+%  - driver (the same as physchem prop for models, but not necessarily for data sets)
 
 <https://www.wikidata.org/entity/Q99985086> a dct:Dataset ;
    dct:license <http://example.com/unknown> ;
@@ -28,3 +29,5 @@
    sbd:property sbd:EMimage ; # look up in ENM
    sbd:appDomain <> . # spherical, CNT -> look up in ENM
    
+<https://search.data.enanomapper.net/projects/nanoreg/> a sbd:Dataset ;
+   dct:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> .
