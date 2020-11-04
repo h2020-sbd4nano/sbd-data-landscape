@@ -16,6 +16,7 @@
 #  - (predicted) properties returned
 #  - driver (the same as physchem prop for models, but not necessarily for data sets)
 
+# the next example is a data set
 <https://www.wikidata.org/entity/Q99985086> a dct:Dataset ;
    rdfs:label "Lung response to crystalline nanocellulose (CNC) exposure in rats" ;
    dct:license <http://example.com/unknown> ;
@@ -25,11 +26,13 @@
    sbd:function <> , <> , <> ; # e.g. drug carrier, etc -> look up in ENM
    sbd:endpoint <> . # e.g. drug carrier, etc -> look up in ENM
 
+# the next example is a computational model (e.g. QSAR)
 <https://nanoimage.jaqpot.org/> a sbd:Model ;
    dct:license <http://example.com/unknown> ;
    sbd:hazard <> ; # OECD level
    sbd:property sbd:EMimage ; # look up in ENM
    sbd:appDomain <> . # spherical, CNT -> look up in ENM
    
+# the next example is one of the eNanoMapper instances (not really a single dataset, more like a database)
 <https://search.data.enanomapper.net/projects/nanoreg/> a sbd:Dataset ;
    dct:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> .
