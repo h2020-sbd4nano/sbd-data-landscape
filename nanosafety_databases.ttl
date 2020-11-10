@@ -17,6 +17,10 @@
 #  - (predicted) properties returned
 #  - driver (the same as physchem prop for models, but not necessarily for data sets)
 
+#####################
+##### DATA SETS #####
+#####################
+
 # the next example is a data set
 <https://www.wikidata.org/entity/Q99985086> a dct:Dataset ;
    rdfs:label "Lung response to crystalline nanocellulose (CNC) exposure in rats" ;
@@ -27,12 +31,61 @@
    sbd:function <> , <> , <> ; # e.g. drug carrier, etc -> look up in ENM
    sbd:endpoint <> . # e.g. drug carrier, etc -> look up in ENM
 
+#####################
+###### MODELS #######
+#####################
+
 # the next example is a computational model (e.g. QSAR)
 <https://nanoimage.jaqpot.org/> a sbd:Model ;
    dct:license <http://example.com/unknown> ;
    sbd:hazard <> ; # OECD level
    sbd:property sbd:EMimage ; # look up in ENM
    sbd:appDomain <> . # spherical, CNT -> look up in ENM
+
+# NanoriskQuantifier
+<https://unknown.org/> a sbd:Model ;
+   dct:license <http://example.com/unknown> ;
+   sbd:hazard <> ; # Risk assessment (hazard and exposure); Numerical estimate values; Inhalation
+   sbd:property <http://example.com/unknown> ;
+   sbd:function <> , <> , <> ; # Chemical substances; Cosmetic products; Biocides -> look up in ENM
+   sbd:appDomain <> . # Powdered spherical & non-spherical particulate; Solid reinforced composite -> look up in ENM
+
+# RiskofDerm
+<https://www.eurofins.com/media/2245/dermal_toolkit_paper_version-en.pdf> a sbd:Model ;
+   dct:license <http://example.com/unknown> ;
+
+# GUIDEnano 
+<https://tool.guidenano.eu/Home/About> a sbd:Model ;
+   dct:license <https://www.upcounsel.com/proprietary-software-license>; #Proprietary licence (Keep copyright, allow use under EULA) -> look up in ENM
+
+# Swiss precautionary matrix 
+<https://www.bag.admin.ch/bag/en/home/gesund-leben/umwelt-und-gesundheit/chemikalien/nanotechnologie/sicherer-umgang-mit-nanomaterialien/vorsorgeraster-nanomaterialien-downloadversion.html> a sbd:Model ;
+   dct:license <http://example.com/unknown> ;
+
+# NanoRiskCat 
+<http://nanodb.dk/en/nanoriskcat/> a sbd:Model ;
+   dct:license <http://example.com/unknown> ;
+
+# MARINA Risk Assessment Strategy 
+<https://www.mdpi.com/1660-4601/12/12/14961> a sbd:Model ;
+   dct:license <http://example.com/unknown> ;
+
+# NANOSOLUTIONS 
+<http://nanosolutionsfp7.com/publications/publications/> a sbd:Model ;
+   dct:license <http://example.com/unknown> ;
+
+# SUNDS 
+<https://cordis.europa.eu/docs/results/604/604305/final1-sun-final-report-20170525.pdf> a sbd:Model ;
+   dct:license <http://example.com/unknown> ;
+
+# Probabilistic Material Flow Modeling (PMFA) 
+<https://www.sciencedirect.com/science/article/abs/pii/S1364815209002394> a sbd:Model ;
+   dct:license <http://example.com/unknown> ;
+
+
+#####################
+##### DATABASES #####
+#####################
    
 # the next example is one of the eNanoMapper instances (not really a single dataset, more like a database)
 <https://search.data.enanomapper.net/projects/nanoreg/> a sbd:Dataset ;
