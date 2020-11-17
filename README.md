@@ -18,6 +18,8 @@ This repository relates to SbD4Nano Task 2.1.1 "Library of comprehensive data on
       * JRC
       * QSARDB
       * NanoSolveIT / NanoInformaTIX
+      
+NB. Information about Diamonds models with an unknown license can be found [in this repository](https://github.com/h2020-sbd4nano/sbd-data-diamonds/)
 
 ## Analysis
 
