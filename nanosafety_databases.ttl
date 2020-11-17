@@ -44,7 +44,7 @@
 
 # GUIDEnano 
 <https://tool.guidenano.eu/Home/About> a sbd:Model ;
-   dct:license <https://www.upcounsel.com/proprietary-software-license>; #Proprietary licence (Keep copyright, allow use under EULA) -> look up in ENM
+   dct:license <https://www.upcounsel.com/proprietary-software-license> . # Proprietary licence (Keep copyright, allow use under EULA) -> look up in ENM
 
 #####################
 ##### DATABASES #####
@@ -58,9 +58,10 @@
 <http://example.com/sbd4nano/data/10.1038/nbt1159/> a sbd:Dataset ;
    dct:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
    sbd:conclusion <http://example.com/sbd4nano/data/10.1038/nbt1159/assertion1> .
+
 <http://example.com/sbd4nano/data/10.1038/nbt1159/assertion1> a sbdbel:CausalAssertion ;
    sbdbel:cause <http://purl.bioontology.org/ontology/npo#NPO_1642> ;
-   sbdbel:relationship sbdel:changes ;
-   sbdbel:outcome <http://purl.enanomapper.org/onto/ENM_0000043> ;
-   
+   sbdbel:relationship sbdbel:changes ;
+   sbdbel:outcome <http://purl.enanomapper.org/onto/ENM_0000043> .
+
 
