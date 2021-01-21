@@ -11,13 +11,14 @@ This repository relates to SbD4Nano Task 2.1.1 "Library of comprehensive data on
 * keep manually added data in a separate file
 * we'll extract automatically data and models from:
    * Data sets
-      * FAIRSharing
-      * Wikidata
-      * NanoWiki (Studies, RelationShips)
+      * FAIRSharing (API)
+      * Wikidata (SPARQL)
+      * NanoWiki (Studies, RelationShips) (SPARQL)
+      * AOPWiki (SPARQL)
    * Models
-      * JRC
-      * QSARDB
-      * NanoSolveIT / NanoInformaTIX
+      * JRC (?)
+      * QSARDB (?)
+      * NanoSolveIT / NanoInformaTIX (?)
       
 NB. Information about Diamonds models with an unknown license can be found [in this repository](https://github.com/h2020-sbd4nano/sbd-data-diamonds/)
 
