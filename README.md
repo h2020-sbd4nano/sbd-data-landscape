@@ -15,6 +15,8 @@ This repository relates to SbD4Nano Task 2.1.1 "Library of comprehensive data on
       * Wikidata (SPARQL)
       * NanoWiki (Studies, RelationShips) (SPARQL)
       * AOPWiki (SPARQL)
+      * WP1 spreadsheet
+      * Diamonds spreadsheet: https://github.com/h2020-sbd4nano/sbd-data-diamonds/blob/main/diamonds-models.ttl 
    * Models
       * JRC (?)
       * QSARDB (?)
