@@ -13,8 +13,8 @@ This repository relates to SbD4Nano Task 2.1.1 "Library of comprehensive data on
    * Data sets
       * FAIRSharing (API)
       * Wikidata (SPARQL)
-      * NanoWiki (Studies, RelationShips) (SPARQL)
-      * AOPWiki (SPARQL)
+      * NanoWiki (Studies, RelationShips): https://github.com/h2020-sbd4nano/sbd-data-aopwiki
+      * AOPWiki: https://github.com/h2020-sbd4nano/sbd-data-aopwiki
       * WP1 spreadsheet
       * Diamonds spreadsheet: https://github.com/h2020-sbd4nano/sbd-data-diamonds/blob/main/diamonds-models.ttl 
    * Models
