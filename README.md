@@ -26,6 +26,13 @@ This repository relates to SbD4Nano Task 2.1.1 "Library of comprehensive data on
       
 NB. Information about Diamonds models with an unknown license can be found [in this repository](https://github.com/h2020-sbd4nano/sbd-data-diamonds/)
 
+## What questions should the knowledgebase
+
+### Give me all datasets, bases, and models
+
+* with a license that allows integration in the SbD4nano platform
+* which tell me about NOEL, DNEL, or PNEC for a particular nanomaterial
+
 ## Database validation
 
 ### Turtle syntax
