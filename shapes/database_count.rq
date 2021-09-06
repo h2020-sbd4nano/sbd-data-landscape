@@ -1,0 +1,15 @@
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+PREFIX sbdbel:  <https://www.sbd4nano.eu/bel/#>
+
+SELECT DISTINCT ?count ?description
+WHERE {
+  {
+    SELECT (COUNT(DISTINCT ?r) AS ?c) ?d WHERE {
+      ?r a sbd:Database .
+      BIND("Total number of databases" AS ?d)
+    }
+  }
+  BIND (?c AS ?count)
+  BIND (?d AS ?description)
+}
+ORDER BY DESC(?count)
