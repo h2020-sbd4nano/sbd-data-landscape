@@ -1,0 +1,6 @@
+PREFIX sbdbel: <https://www.sbd4nano.eu/bel/#>
+
+SELECT ?assertion WHERE {
+  ?assertion a sbdbel:CausalAssertion .
+}
+
