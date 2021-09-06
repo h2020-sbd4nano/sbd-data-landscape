@@ -1,0 +1,6 @@
+PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>
+
+SELECT ?dataset WHERE {
+  ?dataset a sbd:Dataset .
+}
+
