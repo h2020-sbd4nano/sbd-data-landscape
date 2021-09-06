@@ -1,0 +1,10 @@
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+<resource> {
+  a              [void:DatasetDescription] ;
+  dcterms:title  [@en] ;
+  dc:source      IRI+
+}
