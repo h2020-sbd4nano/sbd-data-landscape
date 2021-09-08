@@ -12,5 +12,6 @@ PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
   a                   [sbdbel:CausalAssertion] ,
   sbdbel:cause        IRI {1} ,
   sbdbel:relationship IRI {1} ,
-  sbdbel:outcome      IRI {1}
+  sbdbel:outcome      IRI {1} ,
+  sbdbel:evidence     IRI ?
 }
