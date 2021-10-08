@@ -1,7 +1,8 @@
 PREFIX void:    <http://rdfs.org/ns/void#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
-PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+PREFIX pav:     <http://purl.org/pav/>
 
 <resource> {
   a                    [void:DatasetDescription] ;
@@ -9,5 +10,6 @@ PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
   dcterms:title        [@en] ;
   dcterms:publisher    IRI ;
   dcterms:license      IRI ;
-  dc:source            IRI+
+  dc:source            IRI+ ;
+  pav:createdBy        IRI
 }
