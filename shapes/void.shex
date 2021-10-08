@@ -4,7 +4,10 @@ PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 
 <resource> {
-  a              [void:DatasetDescription] ;
-  dcterms:title  [@en] ;
-  dc:source      IRI+
+  a                    [void:DatasetDescription] ;
+  dcterms:description  [@en] ;
+  dcterms:title        [@en] ;
+  dcterms:publisher    IRI ;
+  dcterms:license      IRI ;
+  dc:source            IRI+
 }
