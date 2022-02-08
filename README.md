@@ -11,12 +11,12 @@ This repository relates to SbD4Nano Task 2.1.1 "Library of comprehensive data on
 * keep manually added data in a separate file
 * we'll extract automatically data and models from:
    * Data sets
-      * FAIRSharing (API)
-      * Wikidata (SPARQL)
-      * NanoWiki (Studies, RelationShips): https://github.com/h2020-sbd4nano/sbd-data-aopwiki
-      * AOPWiki: https://github.com/h2020-sbd4nano/sbd-data-aopwiki
-      * WP1 spreadsheet: https://github.com/h2020-sbd4nano/sbd-data-landscape/blob/master/wp1.ttl
-      * Diamonds spreadsheet: https://github.com/h2020-sbd4nano/sbd-data-diamonds/blob/main/diamonds-models.ttl 
+      * FAIRSharing (API) (open data)
+      * Wikidata (SPARQL) (open data)
+      * NanoWiki (Studies, RelationShips): https://github.com/h2020-sbd4nano/sbd-data-aopwiki (private repo)
+      * AOPWiki: https://github.com/h2020-sbd4nano/sbd-data-aopwiki (private repo)
+      * WP1 spreadsheet: https://github.com/h2020-sbd4nano/sbd-data-landscape/blob/master/wp1.ttl (private repo)
+      * Diamonds spreadsheet: https://github.com/h2020-sbd4nano/sbd-data-diamonds/blob/main/diamonds-models.ttl  (private repo)
    * Models
       * JRC (?)
       * QSARDB (?)
