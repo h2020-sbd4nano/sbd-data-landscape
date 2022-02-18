@@ -1,5 +1,4 @@
 IMPORT <source.shex>
-PREFIX SOURCE: <source.shex#>
 
 PREFIX dc:    <http://purl.org/dc/elements/1.1/>
 PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
@@ -7,7 +6,7 @@ PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>
 PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 
-<resource> @ SOURCE:resource AND {
+<resource> @<Source> AND {
   a                 [sbd:Database] ;
   dc:description    xsd:string?,
   foaf:page         IRI {1,}
