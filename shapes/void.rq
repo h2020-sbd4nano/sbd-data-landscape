@@ -1,6 +1,6 @@
 PREFIX void:    <http://rdfs.org/ns/void#>
 
-SELECT ?void WHERE {
+SELECT DISTINCT ?void WHERE {
   ?void a void:DatasetDescription .
 }
 
