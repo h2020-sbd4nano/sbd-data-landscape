@@ -1,0 +1,21 @@
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+PREFIX pav:     <http://purl.org/pav/>
+PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
+
+<resource> {
+  a                         [sbd:DatabaseManagement] ;
+  dc:description            xsd:string ;
+  dc:source                 IRI ;
+  sbd:hasApplicableMaterial IRI ;
+  sbd:hasApplicableProduct  IRI ;
+  sbd:hasApplicableRnIPhase IRI ;
+  sbd:hasApplicationDomain  IRI ;
+  sbd:hasExposureRoutes     IRI ;
+  sbd:hasLifeCycleStage     IRI ;
+  sbd:interfaceType         IRI ;
+  sbd:nanospecific          IRI ;
+  sbd:toolOwner             xsd:string
+}
