@@ -1,0 +1,14 @@
+name: Validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-rdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: vemonet/jena-riot-action@v3.14
+        with:
+          input: data.enanomapper.ttl
