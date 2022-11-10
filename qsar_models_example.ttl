@@ -1,0 +1,133 @@
+@prefix BAO: <http://www.bioassayontology.org/bao#> .
+@prefix MESH: <http://purl.bioontology.org/ontology/MESH/> .
+@prefix OAE: <http://purl.obolibrary.org/obo/> .
+@prefix PUBCHEM: <https://pubchem.ncbi.nlm.nih.gov/compound/> .
+@prefix SKOS: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix enm: <http://purl.enanomapper.org/onto/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix kb: <https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/> .
+@prefix npo: <https://bioportal.bioontology.org/ontologies/NPO/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2Fnpo%23> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd: <https://www.sbd4nano.eu/rdf/#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://h2020-sbd4nano.github.io/sbd-data-landscape> a void:DatasetDescription ;
+    dc:source <https://doi.org/10.1016/j.comtox.2018.12.002> ;
+    dc:title "Computational models for the assessment of manufactured nanomaterials"@en ;
+    foaf:page <https://www.sbd4nano.eu/> .
+
+kb:Model_23a a sbd:model,
+        sbd:resource,
+        "QSAR" ;
+    rdfs:label "QSAR Model 23a" ;
+    dcterms:source <http://doi.org/10.1039/c4nr03487b> ;
+    dcterms:subject <https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Nanoparticle> ;
+    BAO:BAO_0090004 <https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Endpoint> ;
+    rdfs:comment "The developed nano-QSAR models reveal the differences in the mechanisms of toxicity of metal oxide nanoparticles to bacteria and a human keratinocyte cell line, which belong to prokaryotic and eukaryotic systems, respectively.    There is not a test for robustness, but, a cleaning process of the high correlated descriptors were developed before the model was built.    Mechanistic interpretation of the different descriptors was explained and a comparison between both cases was presented." .
+
+<http://doi.org/10.1039/c4nr03487b> a sio:SIO_000176 ;
+    rdfs:label "Reference" ;
+    dcterms:issued 2014 ;
+    dcterms:mediator [ a foaf:Person ;
+            foaf:name "Jerzy Leszczynski" ] ;
+    dcterms:title "From basic physics to mechanisms of toxicity: the â€œliquid dropâ€ approach applied to develop predictive classification models for toxicity of metal oxide nanoparticles" ;
+    foaf:maker [ a foaf:Person ;
+            foaf:name "V. Kuz'min" ],
+        [ a foaf:Person ;
+            foaf:name "J. Leszczynski" ],
+        [ a foaf:Person ;
+            foaf:name "A. Gajewicz" ],
+        [ a foaf:Person ;
+            foaf:name "N. Sizochenko" ],
+        [ a foaf:Person ;
+            foaf:name "T. Puzyn" ],
+        [ a foaf:Person ;
+            foaf:name "B. Rasulev" ] .
+
+<https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Endpoint> a BAO:BAO_0000179 ;
+    dcterms:description "Originally measured in vitro effective concentration EC50 toxicity data (mol Lâˆ’1) were expressed as logarithms of the inverse molar concentration (log(1/EC50)) response variables, which represents the cytotoxicity that reduces bacteria viability up to 50%" ;
+    BAO:BAO_000266 [ a BAO:BAO_0002993 ;
+            rdfs:label "Cytotoxicity assay" ;
+            rdfs:comment "measured as log(1/EC50)" ] ;
+    BAO:BAO_0095009 OAE:OBI_0001285,
+        "In vitro" ;
+    npo:has_part [ a OAE:CL_0000000 ;
+            rdfs:label "Cell" ;
+            SKOS:altLabel "Bacteria Escherichia Coli (E. Coli)" ;
+            SKOS:narrower MESH:D004926 ] ;
+    sbd:descriptors """- Randic index (order3): topological descriptor, reflects molecular size and branching
+  - Relative molecular weight: constitutional descriptor, accounts both for the atomic masses (volumes) and for their distribution within the molecular space and seems to quantify effectively the bulk cohesiveness of compounds arising from the dispersion and hydrophobic interactions
+  - HOMO-1 energy: quantum mechanical descriptor, energy of the second highest occupied molecular orbital
+  - RNCG: quantum mechanical descriptor, relative negative charge (QMNEG/QTMINUS) quantum mechanical PC
+  - ABIC1: topological descriptor, average bonding information content, reflects the connectivity of atom-atom in the molecule at the first coordination sphere
+  - avg one-electron react. indext for a C atom: can estimate the relative reactivity of the compounds""" .
+
+<https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Nanoparticle> a [ a npo:NPO_1541 ;
+            rdfs:label "Metal Oxide"@en ] ;
+    SKOS:broader npo:NPO_707 ;
+    SKOS:narrower [ a PUBCHEM:159375 ;
+            rdfs:label "oxygen(2-);yttrium(3+)" ],
+        [ a PUBCHEM:62762 ;
+            rdfs:label "dioxozirconium" ],
+        [ a PUBCHEM:14794 ;
+            rdfs:label "antimony(3+);oxygen(2-)" ],
+        [ a PUBCHEM:14811 ;
+            rdfs:label "trioxotungsten" ],
+        [ a npo:NPO_1373 ;
+            rdfs:label "SiO2" ],
+        [ a PUBCHEM:166955 ;
+            rdfs:label "chromium(3+);oxygen(2-)" ],
+        [ a npo:NPO_1550 ;
+            rdfs:label "Fe2O3" ],
+        [ a PUBCHEM:150906 ;
+            rdfs:label "indium(3+);oxygen(2-)" ],
+        [ a OAE:CHEBI_30187 ;
+            rdfs:label "Al2O3" ],
+        [ a PUBCHEM:14805 ;
+            rdfs:label "oxonickel" ],
+        [ a PUBCHEM:518712 ;
+            rdfs:label "oxo(oxovanadiooxy)vanadium" ],
+        [ a PUBCHEM:29131 ;
+            rdfs:label "dioxotin" ],
+        [ a PUBCHEM:14776 ;
+            rdfs:label "oxo(oxobismuthanyloxy)bismuthane" ],
+        [ a PUBCHEM:157925 ;
+            rdfs:label "lanthanum(3+);oxygen(2-)" ],
+        [ a enm:ENM_0000118 ;
+            rdfs:label "Cobalt (II) oxide nanoparticle" ],
+        [ a npo:NPO_1486 ;
+            rdfs:label "TiO2" ],
+        [ a npo:NPO_1542 ;
+            rdfs:label "ZnO" ] ;
+    npo:has_part [ SKOS:narrower "nan" ] ;
+    npo:has_quality [ a npo:NPO_274 ],
+        <https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Nanoparticle/Size_0>,
+        <https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Nanoparticle/Size_1>,
+        <https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Nanoparticle/Size_2> .
+
+<https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Nanoparticle/Size_0> a OAE:PATO_0000117 ;
+    sio:SIO_000300 [ a [ a OAE:STATO_0000035 ;
+                    rdfs:label "Range" ] ;
+            sio:SIO_000300 "15-150" ;
+            sbd:lower_limit "15" ;
+            sbd:upper_limit "150" ] ;
+    SKOS:narrower [ a npo:NPO_1694 ;
+            rdfs:label "Particle size" ] ;
+    npo:has_unit_of_measure npo:NPO_1246 .
+
+<https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Nanoparticle/Size_1> a OAE:PATO_0000117 ;
+    npo:has_unit_of_measure npo:NPO_1246 .
+
+<https://h2020-sbd4nano.github.io/sbd-data-landscape/QSAR/Model_23a/Nanoparticle/Size_2> a OAE:PATO_0000117 ;
+    sio:SIO_000300 [ a [ a OAE:STATO_0000035 ;
+                    rdfs:label "Range" ] ;
+            sio:SIO_000300 "180-2029" ;
+            sbd:lower_limit "180" ;
+            sbd:upper_limit "2029" ] ;
+    SKOS:narrower [ a npo:NPO_1967 ;
+            rdfs:label "Aggregation" ] ;
+    npo:has_unit_of_measure npo:NPO_1246 .
