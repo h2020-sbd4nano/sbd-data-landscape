@@ -26,7 +26,7 @@
     dc:title "Computational models for the assessment of manufactured nanomaterials"@en ;
     foaf:page <https://www.sbd4nano.eu/> .
 
-kb:Model_10 a sbd:model,
+kb:Model_10 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -38,7 +38,7 @@ kb:Model_10 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_11 a sbd:model,
+kb:Model_11 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en,
@@ -51,7 +51,7 @@ kb:Model_11 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_12 a sbd:model,
+kb:Model_12 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree"@en ] ;
@@ -62,7 +62,7 @@ kb:Model_12 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_13 a sbd:model,
+kb:Model_13 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -73,7 +73,7 @@ kb:Model_13 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_14 a sbd:model,
+kb:Model_14 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Machine"@en ] ;
@@ -84,7 +84,7 @@ kb:Model_14 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_15 a sbd:model,
+kb:Model_15 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "NaÃ¯ve Bayesian Classifier"@en ] ;
@@ -95,7 +95,7 @@ kb:Model_15 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_16 a sbd:model,
+kb:Model_16 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -107,7 +107,7 @@ kb:Model_16 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_17a a sbd:model,
+kb:Model_17a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Instance Based Learner"@en,
@@ -119,7 +119,7 @@ kb:Model_17a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_17b a sbd:model,
+kb:Model_17b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Instance Based Learner"@en,
@@ -131,7 +131,7 @@ kb:Model_17b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_18 a sbd:model,
+kb:Model_18 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -143,7 +143,7 @@ kb:Model_18 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19a a sbd:model,
+kb:Model_19a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Regression Trees"@en ] ;
@@ -154,7 +154,7 @@ kb:Model_19a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19b a sbd:model,
+kb:Model_19b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
@@ -165,7 +165,7 @@ kb:Model_19b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19c a sbd:model,
+kb:Model_19c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Regression Trees"@en ] ;
@@ -176,7 +176,7 @@ kb:Model_19c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19d a sbd:model,
+kb:Model_19d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
@@ -187,7 +187,7 @@ kb:Model_19d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19e a sbd:model,
+kb:Model_19e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Regression Trees"@en ] ;
@@ -198,7 +198,7 @@ kb:Model_19e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19f a sbd:model,
+kb:Model_19f a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
@@ -209,7 +209,7 @@ kb:Model_19f a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19g a sbd:model,
+kb:Model_19g a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Regression Trees"@en ] ;
@@ -220,7 +220,7 @@ kb:Model_19g a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19h a sbd:model,
+kb:Model_19h a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
@@ -231,7 +231,7 @@ kb:Model_19h a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_1a a sbd:model,
+kb:Model_1a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -242,7 +242,7 @@ kb:Model_1a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_1b a sbd:model,
+kb:Model_1b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiplelayered Perceptron Neural Network"@en ] ;
@@ -253,7 +253,7 @@ kb:Model_1b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_20 a sbd:model,
+kb:Model_20 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Latent Dirichlet Allocation"@en ] ;
@@ -264,7 +264,7 @@ kb:Model_20 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_21 a sbd:model,
+kb:Model_21 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Latent Dirichlet Allocation"@en ] ;
@@ -275,7 +275,7 @@ kb:Model_21 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_22 a sbd:model,
+kb:Model_22 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "KNMINE software"@en ;
@@ -287,7 +287,7 @@ kb:Model_22 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_23a a sbd:model,
+kb:Model_23a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
@@ -298,7 +298,7 @@ kb:Model_23a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_23b a sbd:model,
+kb:Model_23b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
@@ -309,7 +309,7 @@ kb:Model_23b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_24a a sbd:model,
+kb:Model_24a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
@@ -319,7 +319,7 @@ kb:Model_24a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_24b a sbd:model,
+kb:Model_24b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -329,7 +329,7 @@ kb:Model_24b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_24c a sbd:model,
+kb:Model_24c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -339,7 +339,7 @@ kb:Model_24c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_24d a sbd:model,
+kb:Model_24d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
@@ -349,7 +349,7 @@ kb:Model_24d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25a a sbd:model,
+kb:Model_25a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
@@ -362,7 +362,7 @@ kb:Model_25a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25b a sbd:model,
+kb:Model_25b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
@@ -375,7 +375,7 @@ kb:Model_25b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25c a sbd:model,
+kb:Model_25c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
@@ -388,7 +388,7 @@ kb:Model_25c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25d a sbd:model,
+kb:Model_25d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
@@ -401,7 +401,7 @@ kb:Model_25d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25e a sbd:model,
+kb:Model_25e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
@@ -414,7 +414,7 @@ kb:Model_25e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25f a sbd:model,
+kb:Model_25f a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
@@ -427,7 +427,7 @@ kb:Model_25f a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_26 a sbd:model,
+kb:Model_26 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en,
@@ -439,7 +439,7 @@ kb:Model_26 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_27 a sbd:model,
+kb:Model_27 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
@@ -450,7 +450,7 @@ kb:Model_27 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_28a a sbd:model,
+kb:Model_28a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "General Linear Model"@en ] ;
@@ -461,7 +461,7 @@ kb:Model_28a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_28b a sbd:model,
+kb:Model_28b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "General Linear Model"@en ] ;
@@ -472,7 +472,7 @@ kb:Model_28b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_29a a sbd:model,
+kb:Model_29a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Stepwise-MLR (Multiple Linear Regression)"@en ] ;
@@ -483,7 +483,7 @@ kb:Model_29a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_29b a sbd:model,
+kb:Model_29b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -494,7 +494,7 @@ kb:Model_29b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_2a a sbd:model,
+kb:Model_2a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear Discrimination Analysis"@en,
@@ -506,7 +506,7 @@ kb:Model_2a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_2b a sbd:model,
+kb:Model_2b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear Discrimination Analysis"@en,
@@ -518,7 +518,7 @@ kb:Model_2b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_30 a sbd:model,
+kb:Model_30 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -530,7 +530,7 @@ kb:Model_30 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_31a a sbd:model,
+kb:Model_31a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -541,7 +541,7 @@ kb:Model_31a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_31b a sbd:model,
+kb:Model_31b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -552,7 +552,7 @@ kb:Model_31b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_32a a sbd:model,
+kb:Model_32a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -564,7 +564,7 @@ kb:Model_32a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_32b a sbd:model,
+kb:Model_32b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -576,7 +576,7 @@ kb:Model_32b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33a a sbd:model,
+kb:Model_33a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -587,7 +587,7 @@ kb:Model_33a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33b a sbd:model,
+kb:Model_33b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -598,7 +598,7 @@ kb:Model_33b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33c a sbd:model,
+kb:Model_33c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -609,7 +609,7 @@ kb:Model_33c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33d a sbd:model,
+kb:Model_33d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -620,7 +620,7 @@ kb:Model_33d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33e a sbd:model,
+kb:Model_33e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -631,7 +631,7 @@ kb:Model_33e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_34a a sbd:model,
+kb:Model_34a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
@@ -642,7 +642,7 @@ kb:Model_34a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_34b a sbd:model,
+kb:Model_34b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
@@ -653,7 +653,7 @@ kb:Model_34b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_35 a sbd:model,
+kb:Model_35 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ] ;
     dcterms:source <http://doi.org/10.1007/s11051-015-3051-0> ;
@@ -663,7 +663,7 @@ kb:Model_35 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_36 a sbd:model,
+kb:Model_36 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Latent Dirichlet Allocation"@en ] ;
@@ -674,7 +674,7 @@ kb:Model_36 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_37 a sbd:model,
+kb:Model_37 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Kriging estimation"@en ] ;
@@ -685,7 +685,7 @@ kb:Model_37 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38a a sbd:model,
+kb:Model_38a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "QSARINS software"@en ;
@@ -697,7 +697,7 @@ kb:Model_38a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38b a sbd:model,
+kb:Model_38b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "QSARINS software"@en ;
@@ -709,7 +709,7 @@ kb:Model_38b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38c a sbd:model,
+kb:Model_38c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "QSARINS software"@en ;
@@ -721,7 +721,7 @@ kb:Model_38c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38d a sbd:model,
+kb:Model_38d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
@@ -733,7 +733,7 @@ kb:Model_38d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38e a sbd:model,
+kb:Model_38e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
@@ -745,7 +745,7 @@ kb:Model_38e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38f a sbd:model,
+kb:Model_38f a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
@@ -757,7 +757,7 @@ kb:Model_38f a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38g a sbd:model,
+kb:Model_38g a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
@@ -769,7 +769,7 @@ kb:Model_38g a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38h a sbd:model,
+kb:Model_38h a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
@@ -781,7 +781,7 @@ kb:Model_38h a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38i a sbd:model,
+kb:Model_38i a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
@@ -793,7 +793,7 @@ kb:Model_38i a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38j a sbd:model,
+kb:Model_38j a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
@@ -805,7 +805,7 @@ kb:Model_38j a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38k a sbd:model,
+kb:Model_38k a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
@@ -817,7 +817,7 @@ kb:Model_38k a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38l a sbd:model,
+kb:Model_38l a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
@@ -829,7 +829,7 @@ kb:Model_38l a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38m a sbd:model,
+kb:Model_38m a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
@@ -841,7 +841,7 @@ kb:Model_38m a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38n a sbd:model,
+kb:Model_38n a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
@@ -853,7 +853,7 @@ kb:Model_38n a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38o a sbd:model,
+kb:Model_38o a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
@@ -865,7 +865,7 @@ kb:Model_38o a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38p a sbd:model,
+kb:Model_38p a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -877,7 +877,7 @@ kb:Model_38p a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_39 a sbd:model,
+kb:Model_39 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -888,7 +888,7 @@ kb:Model_39 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_3a a sbd:model,
+kb:Model_3a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WinSVM (version 1.1.8) software"@en ;
@@ -900,7 +900,7 @@ kb:Model_3a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_3b a sbd:model,
+kb:Model_3b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "k-Nearest Neighbour"@en ] ;
@@ -911,7 +911,7 @@ kb:Model_3b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_40a a sbd:model,
+kb:Model_40a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "two dimensional hierarchical cluster analysis"@en ] ;
@@ -922,7 +922,7 @@ kb:Model_40a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_40b a sbd:model,
+kb:Model_40b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "two dimensional hierarchical cluster analysis"@en ] ;
@@ -933,7 +933,7 @@ kb:Model_40b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_41 a sbd:model,
+kb:Model_41 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -945,7 +945,7 @@ kb:Model_41 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_42 a sbd:model,
+kb:Model_42 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -957,7 +957,7 @@ kb:Model_42 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_43 a sbd:model,
+kb:Model_43 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "SPSS software"@en ;
@@ -969,7 +969,7 @@ kb:Model_43 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_44a a sbd:model,
+kb:Model_44a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Regression"@en ] ;
@@ -980,7 +980,7 @@ kb:Model_44a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_44b a sbd:model,
+kb:Model_44b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -991,7 +991,7 @@ kb:Model_44b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_45 a sbd:model,
+kb:Model_45 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1002,7 +1002,7 @@ kb:Model_45 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_46 a sbd:model,
+kb:Model_46 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -1014,7 +1014,7 @@ kb:Model_46 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_47 a sbd:model,
+kb:Model_47 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1025,7 +1025,7 @@ kb:Model_47 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_48 a sbd:model,
+kb:Model_48 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "PLS Toolbox v5.8 software"@en ;
@@ -1037,7 +1037,7 @@ kb:Model_48 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49a a sbd:model,
+kb:Model_49a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
@@ -1048,7 +1048,7 @@ kb:Model_49a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49b a sbd:model,
+kb:Model_49b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
@@ -1059,7 +1059,7 @@ kb:Model_49b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49c a sbd:model,
+kb:Model_49c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
@@ -1070,7 +1070,7 @@ kb:Model_49c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49d a sbd:model,
+kb:Model_49d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
@@ -1081,7 +1081,7 @@ kb:Model_49d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49e a sbd:model,
+kb:Model_49e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
@@ -1092,7 +1092,7 @@ kb:Model_49e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_4a a sbd:model,
+kb:Model_4a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1103,7 +1103,7 @@ kb:Model_4a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_4b a sbd:model,
+kb:Model_4b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1114,7 +1114,7 @@ kb:Model_4b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_5 a sbd:model,
+kb:Model_5 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ] ;
     dcterms:source <http://doi.org/10.3109/17435390.2010.502980> ;
@@ -1124,7 +1124,7 @@ kb:Model_5 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50a a sbd:model,
+kb:Model_50a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
@@ -1135,7 +1135,7 @@ kb:Model_50a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50b a sbd:model,
+kb:Model_50b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -1146,7 +1146,7 @@ kb:Model_50b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50c a sbd:model,
+kb:Model_50c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
@@ -1157,7 +1157,7 @@ kb:Model_50c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50d a sbd:model,
+kb:Model_50d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -1168,7 +1168,7 @@ kb:Model_50d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50e a sbd:model,
+kb:Model_50e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
@@ -1179,7 +1179,7 @@ kb:Model_50e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50f a sbd:model,
+kb:Model_50f a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -1190,7 +1190,7 @@ kb:Model_50f a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_51a a sbd:model,
+kb:Model_51a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en,
@@ -1203,7 +1203,7 @@ kb:Model_51a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_51b a sbd:model,
+kb:Model_51b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en,
@@ -1216,7 +1216,7 @@ kb:Model_51b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_52a a sbd:model,
+kb:Model_52a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "INForm v4.02 software"@en ;
@@ -1228,7 +1228,7 @@ kb:Model_52a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_52b a sbd:model,
+kb:Model_52b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "INForm v4.02 software"@en ;
@@ -1240,7 +1240,7 @@ kb:Model_52b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_52c a sbd:model,
+kb:Model_52c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "INForm v4.02 software"@en ;
@@ -1252,7 +1252,7 @@ kb:Model_52c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53a a sbd:model,
+kb:Model_53a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1264,7 +1264,7 @@ kb:Model_53a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53b a sbd:model,
+kb:Model_53b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1276,7 +1276,7 @@ kb:Model_53b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53c a sbd:model,
+kb:Model_53c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1288,7 +1288,7 @@ kb:Model_53c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53d a sbd:model,
+kb:Model_53d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1300,7 +1300,7 @@ kb:Model_53d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53e a sbd:model,
+kb:Model_53e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1312,7 +1312,7 @@ kb:Model_53e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53f a sbd:model,
+kb:Model_53f a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1324,7 +1324,7 @@ kb:Model_53f a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53g a sbd:model,
+kb:Model_53g a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1336,7 +1336,7 @@ kb:Model_53g a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53h a sbd:model,
+kb:Model_53h a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1348,7 +1348,7 @@ kb:Model_53h a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53i a sbd:model,
+kb:Model_53i a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1360,7 +1360,7 @@ kb:Model_53i a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53j a sbd:model,
+kb:Model_53j a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1372,7 +1372,7 @@ kb:Model_53j a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53k a sbd:model,
+kb:Model_53k a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1384,7 +1384,7 @@ kb:Model_53k a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53l a sbd:model,
+kb:Model_53l a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1396,7 +1396,7 @@ kb:Model_53l a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53m a sbd:model,
+kb:Model_53m a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1408,7 +1408,7 @@ kb:Model_53m a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53n a sbd:model,
+kb:Model_53n a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1420,7 +1420,7 @@ kb:Model_53n a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53o a sbd:model,
+kb:Model_53o a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1432,7 +1432,7 @@ kb:Model_53o a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53p a sbd:model,
+kb:Model_53p a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1444,7 +1444,7 @@ kb:Model_53p a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53q a sbd:model,
+kb:Model_53q a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1456,7 +1456,7 @@ kb:Model_53q a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53r a sbd:model,
+kb:Model_53r a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1468,7 +1468,7 @@ kb:Model_53r a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53s a sbd:model,
+kb:Model_53s a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
@@ -1480,7 +1480,7 @@ kb:Model_53s a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_54a a sbd:model,
+kb:Model_54a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -1491,7 +1491,7 @@ kb:Model_54a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_54b a sbd:model,
+kb:Model_54b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -1502,7 +1502,7 @@ kb:Model_54b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_55a a sbd:model,
+kb:Model_55a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -1514,7 +1514,7 @@ kb:Model_55a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_55b a sbd:model,
+kb:Model_55b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -1526,7 +1526,7 @@ kb:Model_55b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_55c a sbd:model,
+kb:Model_55c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -1538,7 +1538,7 @@ kb:Model_55c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_55d a sbd:model,
+kb:Model_55d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -1550,7 +1550,7 @@ kb:Model_55d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_56 a sbd:model,
+kb:Model_56 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1561,7 +1561,7 @@ kb:Model_56 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_57 a sbd:model,
+kb:Model_57 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -1573,7 +1573,7 @@ kb:Model_57 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_58 a sbd:model,
+kb:Model_58 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "kmine software"@en ;
@@ -1585,7 +1585,7 @@ kb:Model_58 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_59a a sbd:model,
+kb:Model_59a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Regression"@en ] ;
@@ -1596,7 +1596,7 @@ kb:Model_59a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_59b a sbd:model,
+kb:Model_59b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1607,7 +1607,7 @@ kb:Model_59b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_6 a sbd:model,
+kb:Model_6 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ] ;
     dcterms:source <http://doi.org/10.1002/smll.201002366> ;
@@ -1617,7 +1617,7 @@ kb:Model_6 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_60 a sbd:model,
+kb:Model_60 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Jetnet 3.0 software"@en ;
@@ -1629,7 +1629,7 @@ kb:Model_60 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_61a a sbd:model,
+kb:Model_61a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Generated the ADAPT (Aumotated Data and Pattern Recognition Tool) software"@en ;
@@ -1641,7 +1641,7 @@ kb:Model_61a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_61b a sbd:model,
+kb:Model_61b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Generated the ADAPT (Aumotated Data and Pattern Recognition Tool) software"@en ;
@@ -1653,7 +1653,7 @@ kb:Model_61b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_61c a sbd:model,
+kb:Model_61c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Generated the ADAPT (Aumotated Data and Pattern Recognition Tool). software"@en ;
@@ -1665,7 +1665,7 @@ kb:Model_61c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62a a sbd:model,
+kb:Model_62a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1676,7 +1676,7 @@ kb:Model_62a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62b a sbd:model,
+kb:Model_62b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1687,7 +1687,7 @@ kb:Model_62b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62c a sbd:model,
+kb:Model_62c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1698,7 +1698,7 @@ kb:Model_62c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62d a sbd:model,
+kb:Model_62d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1709,7 +1709,7 @@ kb:Model_62d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62e a sbd:model,
+kb:Model_62e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1720,7 +1720,7 @@ kb:Model_62e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62f a sbd:model,
+kb:Model_62f a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1731,7 +1731,7 @@ kb:Model_62f a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62g a sbd:model,
+kb:Model_62g a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1742,7 +1742,7 @@ kb:Model_62g a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62h a sbd:model,
+kb:Model_62h a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1753,7 +1753,7 @@ kb:Model_62h a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62i a sbd:model,
+kb:Model_62i a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1764,7 +1764,7 @@ kb:Model_62i a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62j a sbd:model,
+kb:Model_62j a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
@@ -1775,7 +1775,7 @@ kb:Model_62j a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_63a a sbd:model,
+kb:Model_63a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "crunc v. 4.0 software"@en ;
@@ -1787,7 +1787,7 @@ kb:Model_63a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_63b a sbd:model,
+kb:Model_63b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "crunc v. 4.0 software"@en ;
@@ -1799,7 +1799,7 @@ kb:Model_63b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_63c a sbd:model,
+kb:Model_63c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "crunc v. 4.0 software"@en ;
@@ -1811,7 +1811,7 @@ kb:Model_63c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_64a a sbd:model,
+kb:Model_64a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1822,7 +1822,7 @@ kb:Model_64a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_64b a sbd:model,
+kb:Model_64b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Matlab/C software"@en ;
@@ -1834,7 +1834,7 @@ kb:Model_64b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_65 a sbd:model,
+kb:Model_65 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1845,7 +1845,7 @@ kb:Model_65 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_66 a sbd:model,
+kb:Model_66 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1856,7 +1856,7 @@ kb:Model_66 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_67 a sbd:model,
+kb:Model_67 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1867,7 +1867,7 @@ kb:Model_67 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_68a a sbd:model,
+kb:Model_68a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1878,7 +1878,7 @@ kb:Model_68a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_68b a sbd:model,
+kb:Model_68b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1889,7 +1889,7 @@ kb:Model_68b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_69 a sbd:model,
+kb:Model_69 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1900,7 +1900,7 @@ kb:Model_69 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_7 a sbd:model,
+kb:Model_7 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1911,7 +1911,7 @@ kb:Model_7 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_70a a sbd:model,
+kb:Model_70a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
@@ -1923,7 +1923,7 @@ kb:Model_70a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_70b a sbd:model,
+kb:Model_70b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Three-layer Feed Forward Neural Network"@en ] ;
@@ -1934,7 +1934,7 @@ kb:Model_70b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_71 a sbd:model,
+kb:Model_71 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares regression"@en ] ;
@@ -1945,7 +1945,7 @@ kb:Model_71 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_72 a sbd:model,
+kb:Model_72 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ] ;
     dcterms:source <http://doi.org/10.1007/s10910-008-9514-0> ;
@@ -1955,7 +1955,7 @@ kb:Model_72 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_73 a sbd:model,
+kb:Model_73 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
@@ -1967,7 +1967,7 @@ kb:Model_73 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_74 a sbd:model,
+kb:Model_74 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "BuildQSAR software"@en ;
@@ -1979,7 +1979,7 @@ kb:Model_74 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_75a a sbd:model,
+kb:Model_75a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -1990,7 +1990,7 @@ kb:Model_75a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_75b a sbd:model,
+kb:Model_75b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -2001,7 +2001,7 @@ kb:Model_75b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_75c a sbd:model,
+kb:Model_75c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -2012,7 +2012,7 @@ kb:Model_75c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_75d a sbd:model,
+kb:Model_75d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -2023,7 +2023,7 @@ kb:Model_75d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_76 a sbd:model,
+kb:Model_76 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "SPSS v15.0 MATLAB v7s software"@en ;
@@ -2035,7 +2035,7 @@ kb:Model_76 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_77a a sbd:model,
+kb:Model_77a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -2046,7 +2046,7 @@ kb:Model_77a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_77b a sbd:model,
+kb:Model_77b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -2057,7 +2057,7 @@ kb:Model_77b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_77c a sbd:model,
+kb:Model_77c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -2068,7 +2068,7 @@ kb:Model_77c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_77d a sbd:model,
+kb:Model_77d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
@@ -2079,7 +2079,7 @@ kb:Model_77d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_78a a sbd:model,
+kb:Model_78a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -2090,7 +2090,7 @@ kb:Model_78a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_78b a sbd:model,
+kb:Model_78b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Artificial Neural Network"@en ] ;
@@ -2101,7 +2101,7 @@ kb:Model_78b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_79 a sbd:model,
+kb:Model_79 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -2111,7 +2111,7 @@ kb:Model_79 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_8 a sbd:model,
+kb:Model_8 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree"@en ] ;
@@ -2122,7 +2122,7 @@ kb:Model_8 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_80a a sbd:model,
+kb:Model_80a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -2133,7 +2133,7 @@ kb:Model_80a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_80b a sbd:model,
+kb:Model_80b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Least-Squares Support Vector Machine"@en ] ;
@@ -2144,7 +2144,7 @@ kb:Model_80b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_81 a sbd:model,
+kb:Model_81 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Square Regression"@en ] ;
@@ -2155,7 +2155,7 @@ kb:Model_81 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_82 a sbd:model,
+kb:Model_82 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "BuildQSAR software"@en ;
@@ -2167,7 +2167,7 @@ kb:Model_82 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_83 a sbd:model,
+kb:Model_83 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "R software"@en ;
@@ -2179,7 +2179,7 @@ kb:Model_83 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_84 a sbd:model,
+kb:Model_84 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Algorithm and Multivariate Linear Regression"@en ] ;
@@ -2190,7 +2190,7 @@ kb:Model_84 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_85 a sbd:model,
+kb:Model_85 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "QSARINS software"@en ;
@@ -2202,7 +2202,7 @@ kb:Model_85 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_86 a sbd:model,
+kb:Model_86 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -2213,7 +2213,7 @@ kb:Model_86 a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_87a a sbd:model,
+kb:Model_87a a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -2224,7 +2224,7 @@ kb:Model_87a a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87b a sbd:model,
+kb:Model_87b a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "k-Nearest Neighbour"@en ] ;
@@ -2235,7 +2235,7 @@ kb:Model_87b a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87c a sbd:model,
+kb:Model_87c a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "General Regression Neural Network"@en ] ;
@@ -2246,7 +2246,7 @@ kb:Model_87c a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87d a sbd:model,
+kb:Model_87d a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Radial Basis Function Neural Networks"@en ] ;
@@ -2257,7 +2257,7 @@ kb:Model_87d a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87e a sbd:model,
+kb:Model_87e a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Counter Propagation Neural Network"@en ] ;
@@ -2268,7 +2268,7 @@ kb:Model_87e a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87f a sbd:model,
+kb:Model_87f a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Machine radial"@en ] ;
@@ -2279,7 +2279,7 @@ kb:Model_87f a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87g a sbd:model,
+kb:Model_87g a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Machine linear"@en ] ;
@@ -2290,7 +2290,7 @@ kb:Model_87g a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87h a sbd:model,
+kb:Model_87h a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
@@ -2301,7 +2301,7 @@ kb:Model_87h a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87i a sbd:model,
+kb:Model_87i a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Projection Pursuit Regression"@en ] ;
@@ -2312,7 +2312,7 @@ kb:Model_87i a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87j a sbd:model,
+kb:Model_87j a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multivariate adaptive regression splines (MARS or EARTH)"@en ] ;
@@ -2323,7 +2323,7 @@ kb:Model_87j a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87k a sbd:model,
+kb:Model_87k a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest using 6 descriptors"@en ] ;
@@ -2334,7 +2334,7 @@ kb:Model_87k a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87l a sbd:model,
+kb:Model_87l a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest using 6 descriptors"@en ] ;
@@ -2345,7 +2345,7 @@ kb:Model_87l a sbd:model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_9 a sbd:model,
+kb:Model_9 a sbd:Model,
         sbd:resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
