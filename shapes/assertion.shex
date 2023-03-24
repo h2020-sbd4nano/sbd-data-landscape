@@ -1,5 +1,3 @@
-IMPORT <source.shex>
-
 PREFIX dc:    <http://purl.org/dc/elements/1.1/>
 PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
@@ -7,7 +5,7 @@ PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel: <https://www.sbd4nano.eu/bel/#>
 PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 
-<resource> @<Source> AND {
+<CausalRelationship> {
   a                   [sbdbel:CausalAssertion] ,
   sbdbel:cause        IRI {1} ,
   sbdbel:relationship IRI {1} ,
