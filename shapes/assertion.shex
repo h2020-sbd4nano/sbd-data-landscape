@@ -5,6 +5,7 @@ PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>
 PREFIX sbdbel: <https://www.sbd4nano.eu/bel/#>
 PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 PREFIX cito:  <http://purl.org/spar/cito>
+PREFIX sio:   <http://semanticscience.org/resource/>
 
 <CausalRelationship> {
   a                   [sbdbel:CausalAssertion] ,
@@ -12,5 +13,6 @@ PREFIX cito:  <http://purl.org/spar/cito>
   sbdbel:relationship IRI {1} ,
   sbdbel:outcome      IRI {1} ,
   sbdbel:evidence     IRI ?,
-  cito:containsAssertionFrom IRI ?
+  cito:containsAssertionFrom IRI ?,
+  sio:SIO_000299      xsd:string ?
 }
