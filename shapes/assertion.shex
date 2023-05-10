@@ -11,11 +11,11 @@ PREFIX cito:  <http://purl.org/spar/cito>
 PREFIX sio:   <http://semanticscience.org/resource/>
 
 :CausalRelationship {
-  a                   [sbdbel:CausalAssertion] ,
-  sbdbel:cause        IRI {1} ,
-  sbdbel:relationship IRI {1} ,
-  sbdbel:outcome      IRI {1} ,
-  sbdbel:evidence     IRI ?,
-  cito:containsAssertionFrom IRI ?,
+  a                   [sbdbel:CausalAssertion] ;
+  sbdbel:cause        IRI {1} ;
+  sbdbel:relationship IRI {1} ;
+  sbdbel:outcome      IRI {1} ;
+  sbdbel:evidence     IRI ? ;
+  cito:containsAssertionFrom IRI ? ;
   sio:SIO_000299      xsd:string ?
 }
