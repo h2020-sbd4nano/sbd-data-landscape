@@ -1,5 +1,8 @@
 IMPORT <source.shex>
 
+BASE <https://www.sbd4nano.eu/shapes/#>
+PREFIX : <https://www.sbd4nano.eu/shapes/#>
+
 PREFIX dc:    <http://purl.org/dc/elements/1.1/>
 PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -7,8 +10,8 @@ PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sbd:   <https://www.sbd4nano.eu/rdf/#>
 PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 
-<resource> @<Source> AND {
-  a                 [sbd:Model] ,
-  dc:description    rdf:langString?,
+:Resource> @:Source AND {
+  a                 [sbd:Model] ;
+  dc:description    rdf:langString? ;
   foaf:page         IRI {1,}
 }

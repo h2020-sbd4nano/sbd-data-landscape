@@ -1,3 +1,6 @@
+BASE <https://www.sbd4nano.eu/shapes/#>
+PREFIX : <https://www.sbd4nano.eu/shapes/#>
+
 PREFIX void:    <http://rdfs.org/ns/void#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
@@ -5,7 +8,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 PREFIX pav:     <http://purl.org/pav/>
 PREFIX sbd:     <https://www.sbd4nano.eu/rdf/#>
 
-<resource> {
+:Resource @:Source AND {
   a                         [sbd:DatabaseManagement] ;
   dc:description            xsd:string ;
   dc:source                 IRI ;

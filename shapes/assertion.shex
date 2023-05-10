@@ -1,3 +1,6 @@
+BASE <https://www.sbd4nano.eu/shapes/#>
+PREFIX : <https://www.sbd4nano.eu/shapes/#>
+
 PREFIX dc:    <http://purl.org/dc/elements/1.1/>
 PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
@@ -7,7 +10,7 @@ PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 PREFIX cito:  <http://purl.org/spar/cito>
 PREFIX sio:   <http://semanticscience.org/resource/>
 
-<CausalRelationship> {
+:CausalRelationship {
   a                   [sbdbel:CausalAssertion] ,
   sbdbel:cause        IRI {1} ,
   sbdbel:relationship IRI {1} ,
