@@ -1,0 +1,12 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd: <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel: <https://www.sbd4nano.eu/bel/#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+void:DatasetDescription rdfs:label "Dataset Description" .
+sbdbel:CausalAssertion  rdfs:label "Causal Relationship" .
+
+sbd:Database rdfs:label "Database" .
+sbd:Dataset  rdfs:label "Dataset" .
+sbd:Model    rdfs:label "Model" .
+sbd:Resource rdfs:label "Resource" .
