@@ -26,8 +26,8 @@
     dc:title "Computational models for the assessment of manufactured nanomaterials"@en ;
     foaf:page <https://www.sbd4nano.eu/> .
 
-kb:Model_10 a sbd:Model,
-        sbd:resource ;
+kb:Model_10 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -38,8 +38,8 @@ kb:Model_10 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_11 a sbd:Model,
-        sbd:resource ;
+kb:Model_11 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en,
                 "Naive Bayes"@en,
@@ -51,8 +51,8 @@ kb:Model_11 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_12 a sbd:Model,
-        sbd:resource ;
+kb:Model_12 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree"@en ] ;
     dcterms:source <http://doi.org/10.1021/nn3010087> ;
@@ -62,8 +62,8 @@ kb:Model_12 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_13 a sbd:Model,
-        sbd:resource ;
+kb:Model_13 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci3005308> ;
@@ -73,8 +73,8 @@ kb:Model_13 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_14 a sbd:Model,
-        sbd:resource ;
+kb:Model_14 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Machine"@en ] ;
     dcterms:source <http://doi.org/10.1039/c3nr01533e> ;
@@ -84,8 +84,8 @@ kb:Model_14 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_15 a sbd:Model,
-        sbd:resource ;
+kb:Model_15 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "NaÃ¯ve Bayesian Classifier"@en ] ;
     dcterms:source <http://doi.org/10.1002/smll.201201903> ;
@@ -95,8 +95,8 @@ kb:Model_15 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_16 a sbd:Model,
-        sbd:resource ;
+kb:Model_16 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -107,8 +107,8 @@ kb:Model_16 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_17a a sbd:Model,
-        sbd:resource ;
+kb:Model_17a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Instance Based Learner"@en,
                 "k-Nearest Neighbour"@en ] ;
@@ -119,8 +119,8 @@ kb:Model_17a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_17b a sbd:Model,
-        sbd:resource ;
+kb:Model_17b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Instance Based Learner"@en,
                 "k-Nearest Neighbour"@en ] ;
@@ -131,8 +131,8 @@ kb:Model_17b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_18 a sbd:Model,
-        sbd:resource ;
+kb:Model_18 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -143,8 +143,8 @@ kb:Model_18 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19a a sbd:Model,
-        sbd:resource ;
+kb:Model_19a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Regression Trees"@en ] ;
     dcterms:source <http://doi.org/10.1111/risa.12109> ;
@@ -154,8 +154,8 @@ kb:Model_19a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19b a sbd:Model,
-        sbd:resource ;
+kb:Model_19b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
     dcterms:source <http://doi.org/10.1111/risa.12109> ;
@@ -165,8 +165,8 @@ kb:Model_19b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19c a sbd:Model,
-        sbd:resource ;
+kb:Model_19c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Regression Trees"@en ] ;
     dcterms:source <http://doi.org/10.1111/risa.12109> ;
@@ -176,8 +176,8 @@ kb:Model_19c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19d a sbd:Model,
-        sbd:resource ;
+kb:Model_19d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
     dcterms:source <http://doi.org/10.1111/risa.12109> ;
@@ -187,8 +187,8 @@ kb:Model_19d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19e a sbd:Model,
-        sbd:resource ;
+kb:Model_19e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Regression Trees"@en ] ;
     dcterms:source <http://doi.org/10.1111/risa.12109> ;
@@ -198,8 +198,8 @@ kb:Model_19e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19f a sbd:Model,
-        sbd:resource ;
+kb:Model_19f a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
     dcterms:source <http://doi.org/10.1111/risa.12109> ;
@@ -209,8 +209,8 @@ kb:Model_19f a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19g a sbd:Model,
-        sbd:resource ;
+kb:Model_19g a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Regression Trees"@en ] ;
     dcterms:source <http://doi.org/10.1111/risa.12109> ;
@@ -220,8 +220,8 @@ kb:Model_19g a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_19h a sbd:Model,
-        sbd:resource ;
+kb:Model_19h a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
     dcterms:source <http://doi.org/10.1111/risa.12109> ;
@@ -231,8 +231,8 @@ kb:Model_19h a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_1a a sbd:Model,
-        sbd:resource ;
+kb:Model_1a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1021/ie3006947> ;
@@ -242,8 +242,8 @@ kb:Model_1a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_1b a sbd:Model,
-        sbd:resource ;
+kb:Model_1b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiplelayered Perceptron Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1021/ie3006947> ;
@@ -253,8 +253,8 @@ kb:Model_1b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_20 a sbd:Model,
-        sbd:resource ;
+kb:Model_20 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Latent Dirichlet Allocation"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.envint.2014.08.009> ;
@@ -264,8 +264,8 @@ kb:Model_20 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_21 a sbd:Model,
-        sbd:resource ;
+kb:Model_21 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Latent Dirichlet Allocation"@en ] ;
     dcterms:source <http://doi.org/10.1021/es503861x> ;
@@ -275,8 +275,8 @@ kb:Model_21 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_22 a sbd:Model,
-        sbd:resource ;
+kb:Model_22 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "KNMINE software"@en ;
             skos:narrower "k-Nearest Neighbour"@en ] ;
@@ -287,8 +287,8 @@ kb:Model_22 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_23a a sbd:Model,
-        sbd:resource ;
+kb:Model_23a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
     dcterms:source <http://doi.org/10.1039/c4nr03487b> ;
@@ -298,8 +298,8 @@ kb:Model_23a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_23b a sbd:Model,
-        sbd:resource ;
+kb:Model_23b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
     dcterms:source <http://doi.org/10.1039/c4nr03487b> ;
@@ -309,8 +309,8 @@ kb:Model_23b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_24a a sbd:Model,
-        sbd:resource ;
+kb:Model_24a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
     dcterms:source <http://doi.org/10.1021/nl303144k> ;
@@ -319,8 +319,8 @@ kb:Model_24a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_24b a sbd:Model,
-        sbd:resource ;
+kb:Model_24b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1021/nl303144k> ;
@@ -329,8 +329,8 @@ kb:Model_24b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_24c a sbd:Model,
-        sbd:resource ;
+kb:Model_24c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1021/nl303144k> ;
@@ -339,8 +339,8 @@ kb:Model_24c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_24d a sbd:Model,
-        sbd:resource ;
+kb:Model_24d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
     dcterms:source <http://doi.org/10.1021/nl303144k> ;
@@ -349,8 +349,8 @@ kb:Model_24d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25a a sbd:Model,
-        sbd:resource ;
+kb:Model_25a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
                 "Decision Tree Forest"@en,
@@ -362,8 +362,8 @@ kb:Model_25a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25b a sbd:Model,
-        sbd:resource ;
+kb:Model_25b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
                 "Decision Tree Forest"@en,
@@ -375,8 +375,8 @@ kb:Model_25b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25c a sbd:Model,
-        sbd:resource ;
+kb:Model_25c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
                 "Decision Tree Forest"@en,
@@ -388,8 +388,8 @@ kb:Model_25c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25d a sbd:Model,
-        sbd:resource ;
+kb:Model_25d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
                 "Decision Tree Forest"@en,
@@ -401,8 +401,8 @@ kb:Model_25d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25e a sbd:Model,
-        sbd:resource ;
+kb:Model_25e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
                 "Decision Tree Forest"@en,
@@ -414,8 +414,8 @@ kb:Model_25e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_25f a sbd:Model,
-        sbd:resource ;
+kb:Model_25f a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree Boost"@en,
                 "Decision Tree Forest"@en,
@@ -427,8 +427,8 @@ kb:Model_25f a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_26 a sbd:Model,
-        sbd:resource ;
+kb:Model_26 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en,
                 "Stepwise Multiple Linear Regression"@en ] ;
@@ -439,8 +439,8 @@ kb:Model_26 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_27 a sbd:Model,
-        sbd:resource ;
+kb:Model_27 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.chemosphere.2013.10.079> ;
@@ -450,8 +450,8 @@ kb:Model_27 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_28a a sbd:Model,
-        sbd:resource ;
+kb:Model_28a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "General Linear Model"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.scitotenv.2013.09.006> ;
@@ -461,8 +461,8 @@ kb:Model_28a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_28b a sbd:Model,
-        sbd:resource ;
+kb:Model_28b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "General Linear Model"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.scitotenv.2013.09.006> ;
@@ -472,8 +472,8 @@ kb:Model_28b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_29a a sbd:Model,
-        sbd:resource ;
+kb:Model_29a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Stepwise-MLR (Multiple Linear Regression)"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.ecoenv.2014.05.026> ;
@@ -483,8 +483,8 @@ kb:Model_29a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_29b a sbd:Model,
-        sbd:resource ;
+kb:Model_29b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.ecoenv.2014.05.026> ;
@@ -494,8 +494,8 @@ kb:Model_29b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_2a a sbd:Model,
-        sbd:resource ;
+kb:Model_2a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear Discrimination Analysis"@en,
                 "Multiple Linear Regression"@en ] ;
@@ -506,8 +506,8 @@ kb:Model_2a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_2b a sbd:Model,
-        sbd:resource ;
+kb:Model_2b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear Discrimination Analysis"@en,
                 "Multiple Linear Regression"@en ] ;
@@ -518,8 +518,8 @@ kb:Model_2b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_30 a sbd:Model,
-        sbd:resource ;
+kb:Model_30 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -530,8 +530,8 @@ kb:Model_30 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_31a a sbd:Model,
-        sbd:resource ;
+kb:Model_31a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.jphotobiol.2013.11.023> ;
@@ -541,8 +541,8 @@ kb:Model_31a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_31b a sbd:Model,
-        sbd:resource ;
+kb:Model_31b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.jphotobiol.2013.11.023> ;
@@ -552,8 +552,8 @@ kb:Model_31b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_32a a sbd:Model,
-        sbd:resource ;
+kb:Model_32a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -564,8 +564,8 @@ kb:Model_32a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_32b a sbd:Model,
-        sbd:resource ;
+kb:Model_32b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -576,8 +576,8 @@ kb:Model_32b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33a a sbd:Model,
-        sbd:resource ;
+kb:Model_33a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.biomaterials.2015.03.042> ;
@@ -587,8 +587,8 @@ kb:Model_33a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33b a sbd:Model,
-        sbd:resource ;
+kb:Model_33b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.biomaterials.2015.03.042> ;
@@ -598,8 +598,8 @@ kb:Model_33b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33c a sbd:Model,
-        sbd:resource ;
+kb:Model_33c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.biomaterials.2015.03.042> ;
@@ -609,8 +609,8 @@ kb:Model_33c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33d a sbd:Model,
-        sbd:resource ;
+kb:Model_33d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.biomaterials.2015.03.042> ;
@@ -620,8 +620,8 @@ kb:Model_33d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_33e a sbd:Model,
-        sbd:resource ;
+kb:Model_33e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.biomaterials.2015.03.042> ;
@@ -631,8 +631,8 @@ kb:Model_33e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_34a a sbd:Model,
-        sbd:resource ;
+kb:Model_34a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
     dcterms:source <http://doi.org/10.1039/c5ra11399g> ;
@@ -642,8 +642,8 @@ kb:Model_34a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_34b a sbd:Model,
-        sbd:resource ;
+kb:Model_34b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en ] ;
     dcterms:source <http://doi.org/10.1039/c5ra11399g> ;
@@ -653,8 +653,8 @@ kb:Model_34b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_35 a sbd:Model,
-        sbd:resource ;
+kb:Model_35 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ] ;
     dcterms:source <http://doi.org/10.1007/s11051-015-3051-0> ;
     dcterms:subject <https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_35/Nanoparticle> ;
@@ -663,8 +663,8 @@ kb:Model_35 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_36 a sbd:Model,
-        sbd:resource ;
+kb:Model_36 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Latent Dirichlet Allocation"@en ] ;
     dcterms:source <http://doi.org/10.2217/nnm.14.96> ;
@@ -674,8 +674,8 @@ kb:Model_36 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_37 a sbd:Model,
-        sbd:resource ;
+kb:Model_37 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Kriging estimation"@en ] ;
     dcterms:source <http://doi.org/10.3762/bjnano.6.160> ;
@@ -685,8 +685,8 @@ kb:Model_37 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38a a sbd:Model,
-        sbd:resource ;
+kb:Model_38a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "QSARINS software"@en ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -697,8 +697,8 @@ kb:Model_38a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38b a sbd:Model,
-        sbd:resource ;
+kb:Model_38b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "QSARINS software"@en ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -709,8 +709,8 @@ kb:Model_38b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38c a sbd:Model,
-        sbd:resource ;
+kb:Model_38c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "QSARINS software"@en ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -721,8 +721,8 @@ kb:Model_38c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38d a sbd:Model,
-        sbd:resource ;
+kb:Model_38d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
             skos:narrower "Support Vector Machine linear"@en ] ;
@@ -733,8 +733,8 @@ kb:Model_38d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38e a sbd:Model,
-        sbd:resource ;
+kb:Model_38e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
             skos:narrower "Support Vector Machine linear"@en ] ;
@@ -745,8 +745,8 @@ kb:Model_38e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38f a sbd:Model,
-        sbd:resource ;
+kb:Model_38f a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
             skos:narrower "Support Vector Machine linear"@en ] ;
@@ -757,8 +757,8 @@ kb:Model_38f a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38g a sbd:Model,
-        sbd:resource ;
+kb:Model_38g a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
             skos:narrower "Support Vector Machine radial"@en ] ;
@@ -769,8 +769,8 @@ kb:Model_38g a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38h a sbd:Model,
-        sbd:resource ;
+kb:Model_38h a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
             skos:narrower "Support Vector Machine radial"@en ] ;
@@ -781,8 +781,8 @@ kb:Model_38h a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38i a sbd:Model,
-        sbd:resource ;
+kb:Model_38i a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Caret package of the Cran-R software"@en ;
             skos:narrower "Support Vector Machine radial"@en ] ;
@@ -793,8 +793,8 @@ kb:Model_38i a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38j a sbd:Model,
-        sbd:resource ;
+kb:Model_38j a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
             skos:narrower "Radial Basis Function Neural Networks"@en ] ;
@@ -805,8 +805,8 @@ kb:Model_38j a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38k a sbd:Model,
-        sbd:resource ;
+kb:Model_38k a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
             skos:narrower "Radial Basis Function Neural Networks"@en ] ;
@@ -817,8 +817,8 @@ kb:Model_38k a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38l a sbd:Model,
-        sbd:resource ;
+kb:Model_38l a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
             skos:narrower "Radial Basis Function Neural Networks"@en ] ;
@@ -829,8 +829,8 @@ kb:Model_38l a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38m a sbd:Model,
-        sbd:resource ;
+kb:Model_38m a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
             skos:narrower "General Regression Neural Networks"@en ] ;
@@ -841,8 +841,8 @@ kb:Model_38m a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38n a sbd:Model,
-        sbd:resource ;
+kb:Model_38n a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
             skos:narrower "General Regression Neural Networks"@en ] ;
@@ -853,8 +853,8 @@ kb:Model_38n a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38o a sbd:Model,
-        sbd:resource ;
+kb:Model_38o a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
             skos:narrower "General Regression Neural Networks"@en ] ;
@@ -865,8 +865,8 @@ kb:Model_38o a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_38p a sbd:Model,
-        sbd:resource ;
+kb:Model_38p a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "classification tree"@en ] ;
@@ -877,8 +877,8 @@ kb:Model_38p a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_39 a sbd:Model,
-        sbd:resource ;
+kb:Model_39 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.proeng.2015.01.284> ;
@@ -888,8 +888,8 @@ kb:Model_39 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_3a a sbd:Model,
-        sbd:resource ;
+kb:Model_3a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WinSVM (version 1.1.8) software"@en ;
             skos:narrower "Support vector machine classification"@en ] ;
@@ -900,8 +900,8 @@ kb:Model_3a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_3b a sbd:Model,
-        sbd:resource ;
+kb:Model_3b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "k-Nearest Neighbour"@en ] ;
     dcterms:source <http://doi.org/10.1021/nn1013484> ;
@@ -911,8 +911,8 @@ kb:Model_3b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_40a a sbd:Model,
-        sbd:resource ;
+kb:Model_40a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "two dimensional hierarchical cluster analysis"@en ] ;
     dcterms:source <http://doi.org/10.1088/0957-4484/26/1/015701> ;
@@ -922,8 +922,8 @@ kb:Model_40a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_40b a sbd:Model,
-        sbd:resource ;
+kb:Model_40b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "two dimensional hierarchical cluster analysis"@en ] ;
     dcterms:source <http://doi.org/10.1088/0957-4484/26/1/015701> ;
@@ -933,8 +933,8 @@ kb:Model_40b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_41 a sbd:Model,
-        sbd:resource ;
+kb:Model_41 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -945,8 +945,8 @@ kb:Model_41 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_42 a sbd:Model,
-        sbd:resource ;
+kb:Model_42 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -957,8 +957,8 @@ kb:Model_42 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_43 a sbd:Model,
-        sbd:resource ;
+kb:Model_43 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "SPSS software"@en ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -969,8 +969,8 @@ kb:Model_43 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_44a a sbd:Model,
-        sbd:resource ;
+kb:Model_44a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Regression"@en ] ;
     dcterms:source <http://doi.org/10.1039/c5nr01537e> ;
@@ -980,8 +980,8 @@ kb:Model_44a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_44b a sbd:Model,
-        sbd:resource ;
+kb:Model_44b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1039/c5nr01537e> ;
@@ -991,8 +991,8 @@ kb:Model_44b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_45 a sbd:Model,
-        sbd:resource ;
+kb:Model_45 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.chemosphere.2014.10.067> ;
@@ -1002,8 +1002,8 @@ kb:Model_45 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_46 a sbd:Model,
-        sbd:resource ;
+kb:Model_46 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1014,8 +1014,8 @@ kb:Model_46 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_47 a sbd:Model,
-        sbd:resource ;
+kb:Model_47 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.3109/17435390.2014.930195> ;
@@ -1025,8 +1025,8 @@ kb:Model_47 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_48 a sbd:Model,
-        sbd:resource ;
+kb:Model_48 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "PLS Toolbox v5.8 software"@en ;
             skos:narrower "Partial Least Square Regression"@en ] ;
@@ -1037,8 +1037,8 @@ kb:Model_48 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49a a sbd:Model,
-        sbd:resource ;
+kb:Model_49a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
     dcterms:source <http://doi.org/10.3109/17435390.2016.1161857> ;
@@ -1048,8 +1048,8 @@ kb:Model_49a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49b a sbd:Model,
-        sbd:resource ;
+kb:Model_49b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
     dcterms:source <http://doi.org/10.3109/17435390.2016.1161857> ;
@@ -1059,8 +1059,8 @@ kb:Model_49b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49c a sbd:Model,
-        sbd:resource ;
+kb:Model_49c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
     dcterms:source <http://doi.org/10.3109/17435390.2016.1161857> ;
@@ -1070,8 +1070,8 @@ kb:Model_49c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49d a sbd:Model,
-        sbd:resource ;
+kb:Model_49d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
     dcterms:source <http://doi.org/10.3109/17435390.2016.1161857> ;
@@ -1081,8 +1081,8 @@ kb:Model_49d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_49e a sbd:Model,
-        sbd:resource ;
+kb:Model_49e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Program-based decision Tree construction tool"@en ] ;
     dcterms:source <http://doi.org/10.3109/17435390.2016.1161861> ;
@@ -1092,8 +1092,8 @@ kb:Model_49e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_4a a sbd:Model,
-        sbd:resource ;
+kb:Model_4a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.jhazmat.2010.04.016> ;
@@ -1103,8 +1103,8 @@ kb:Model_4a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_4b a sbd:Model,
-        sbd:resource ;
+kb:Model_4b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.jhazmat.2010.04.016> ;
@@ -1114,8 +1114,8 @@ kb:Model_4b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_5 a sbd:Model,
-        sbd:resource ;
+kb:Model_5 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ] ;
     dcterms:source <http://doi.org/10.3109/17435390.2010.502980> ;
     dcterms:subject <https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_5/Nanoparticle> ;
@@ -1124,8 +1124,8 @@ kb:Model_5 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50a a sbd:Model,
-        sbd:resource ;
+kb:Model_50a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
     dcterms:source <http://doi.org/10.1002/smll.201600597> ;
@@ -1135,8 +1135,8 @@ kb:Model_50a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50b a sbd:Model,
-        sbd:resource ;
+kb:Model_50b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1002/smll.201600597> ;
@@ -1146,8 +1146,8 @@ kb:Model_50b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50c a sbd:Model,
-        sbd:resource ;
+kb:Model_50c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
     dcterms:source <http://doi.org/10.1002/smll.201600597> ;
@@ -1157,8 +1157,8 @@ kb:Model_50c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50d a sbd:Model,
-        sbd:resource ;
+kb:Model_50d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1002/smll.201600597> ;
@@ -1168,8 +1168,8 @@ kb:Model_50d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50e a sbd:Model,
-        sbd:resource ;
+kb:Model_50e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression with Expectation Maximization"@en ] ;
     dcterms:source <http://doi.org/10.1002/smll.201600597> ;
@@ -1179,8 +1179,8 @@ kb:Model_50e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_50f a sbd:Model,
-        sbd:resource ;
+kb:Model_50f a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1002/smll.201600597> ;
@@ -1190,8 +1190,8 @@ kb:Model_50f a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_51a a sbd:Model,
-        sbd:resource ;
+kb:Model_51a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en,
                 "Support Vector Machine"@en,
@@ -1203,8 +1203,8 @@ kb:Model_51a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_51b a sbd:Model,
-        sbd:resource ;
+kb:Model_51b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest"@en,
                 "Support Vector Machine"@en,
@@ -1216,8 +1216,8 @@ kb:Model_51b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_52a a sbd:Model,
-        sbd:resource ;
+kb:Model_52a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "INForm v4.02 software"@en ;
             skos:narrower "Artificial Neural Network"@en ] ;
@@ -1228,8 +1228,8 @@ kb:Model_52a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_52b a sbd:Model,
-        sbd:resource ;
+kb:Model_52b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "INForm v4.02 software"@en ;
             skos:narrower "Artificial Neural Network"@en ] ;
@@ -1240,8 +1240,8 @@ kb:Model_52b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_52c a sbd:Model,
-        sbd:resource ;
+kb:Model_52c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "INForm v4.02 software"@en ;
             skos:narrower "Artificial Neural Network"@en ] ;
@@ -1252,8 +1252,8 @@ kb:Model_52c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53a a sbd:Model,
-        sbd:resource ;
+kb:Model_53a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Functional Tree"@en ] ;
@@ -1264,8 +1264,8 @@ kb:Model_53a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53b a sbd:Model,
-        sbd:resource ;
+kb:Model_53b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "C4.5 Decision Tree"@en ] ;
@@ -1276,8 +1276,8 @@ kb:Model_53b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53c a sbd:Model,
-        sbd:resource ;
+kb:Model_53c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Random Tree"@en ] ;
@@ -1288,8 +1288,8 @@ kb:Model_53c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53d a sbd:Model,
-        sbd:resource ;
+kb:Model_53d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Classification and Regression Tree"@en ] ;
@@ -1300,8 +1300,8 @@ kb:Model_53d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53e a sbd:Model,
-        sbd:resource ;
+kb:Model_53e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Functional Tree"@en ] ;
@@ -1312,8 +1312,8 @@ kb:Model_53e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53f a sbd:Model,
-        sbd:resource ;
+kb:Model_53f a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "C4.5 Decision Tree"@en ] ;
@@ -1324,8 +1324,8 @@ kb:Model_53f a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53g a sbd:Model,
-        sbd:resource ;
+kb:Model_53g a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Random Tree"@en ] ;
@@ -1336,8 +1336,8 @@ kb:Model_53g a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53h a sbd:Model,
-        sbd:resource ;
+kb:Model_53h a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Classification and Regression Tree"@en ] ;
@@ -1348,8 +1348,8 @@ kb:Model_53h a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53i a sbd:Model,
-        sbd:resource ;
+kb:Model_53i a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Functional Tree"@en ] ;
@@ -1360,8 +1360,8 @@ kb:Model_53i a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53j a sbd:Model,
-        sbd:resource ;
+kb:Model_53j a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "C4.5 Decision Tree"@en ] ;
@@ -1372,8 +1372,8 @@ kb:Model_53j a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53k a sbd:Model,
-        sbd:resource ;
+kb:Model_53k a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Random Tree"@en ] ;
@@ -1384,8 +1384,8 @@ kb:Model_53k a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53l a sbd:Model,
-        sbd:resource ;
+kb:Model_53l a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Classification and Regression Tree"@en ] ;
@@ -1396,8 +1396,8 @@ kb:Model_53l a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53m a sbd:Model,
-        sbd:resource ;
+kb:Model_53m a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Functional Tree"@en ] ;
@@ -1408,8 +1408,8 @@ kb:Model_53m a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53n a sbd:Model,
-        sbd:resource ;
+kb:Model_53n a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "C4.5 Decision Tree"@en ] ;
@@ -1420,8 +1420,8 @@ kb:Model_53n a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53o a sbd:Model,
-        sbd:resource ;
+kb:Model_53o a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Functional tree"@en ] ;
@@ -1432,8 +1432,8 @@ kb:Model_53o a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53p a sbd:Model,
-        sbd:resource ;
+kb:Model_53p a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "C4.5 Decision Tree"@en ] ;
@@ -1444,8 +1444,8 @@ kb:Model_53p a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53q a sbd:Model,
-        sbd:resource ;
+kb:Model_53q a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "Functional tree"@en ] ;
@@ -1456,8 +1456,8 @@ kb:Model_53q a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53r a sbd:Model,
-        sbd:resource ;
+kb:Model_53r a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "C4.5 Decision Tree"@en ] ;
@@ -1468,8 +1468,8 @@ kb:Model_53r a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_53s a sbd:Model,
-        sbd:resource ;
+kb:Model_53s a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "WEKA software"@en ;
             skos:narrower "C4.5 Decision Tree"@en ] ;
@@ -1480,8 +1480,8 @@ kb:Model_53s a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_54a a sbd:Model,
-        sbd:resource ;
+kb:Model_54a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.ecoenv.2015.12.033> ;
@@ -1491,8 +1491,8 @@ kb:Model_54a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_54b a sbd:Model,
-        sbd:resource ;
+kb:Model_54b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.ecoenv.2015.12.033> ;
@@ -1502,8 +1502,8 @@ kb:Model_54b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_55a a sbd:Model,
-        sbd:resource ;
+kb:Model_55a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1514,8 +1514,8 @@ kb:Model_55a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_55b a sbd:Model,
-        sbd:resource ;
+kb:Model_55b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1526,8 +1526,8 @@ kb:Model_55b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_55c a sbd:Model,
-        sbd:resource ;
+kb:Model_55c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1538,8 +1538,8 @@ kb:Model_55c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_55d a sbd:Model,
-        sbd:resource ;
+kb:Model_55d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1550,8 +1550,8 @@ kb:Model_55d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_56 a sbd:Model,
-        sbd:resource ;
+kb:Model_56 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1080/17435390.2016.1202352> ;
@@ -1561,8 +1561,8 @@ kb:Model_56 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_57 a sbd:Model,
-        sbd:resource ;
+kb:Model_57 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1573,8 +1573,8 @@ kb:Model_57 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_58 a sbd:Model,
-        sbd:resource ;
+kb:Model_58 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "kmine software"@en ;
             skos:narrower "classification tree"@en ] ;
@@ -1585,8 +1585,8 @@ kb:Model_58 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_59a a sbd:Model,
-        sbd:resource ;
+kb:Model_59a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Regression"@en ] ;
     dcterms:source <http://doi.org/10.2174/1386207318666150306105525> ;
@@ -1596,8 +1596,8 @@ kb:Model_59a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_59b a sbd:Model,
-        sbd:resource ;
+kb:Model_59b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.2174/1386207318666150306105525> ;
@@ -1607,8 +1607,8 @@ kb:Model_59b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_6 a sbd:Model,
-        sbd:resource ;
+kb:Model_6 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ] ;
     dcterms:source <http://doi.org/10.1002/smll.201002366> ;
     dcterms:subject <https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_6/Nanoparticle> ;
@@ -1617,8 +1617,8 @@ kb:Model_6 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_60 a sbd:Model,
-        sbd:resource ;
+kb:Model_60 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Jetnet 3.0 software"@en ;
             skos:narrower "Artificial Neural Network"@en ] ;
@@ -1629,8 +1629,8 @@ kb:Model_60 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_61a a sbd:Model,
-        sbd:resource ;
+kb:Model_61a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Generated the ADAPT (Aumotated Data and Pattern Recognition Tool) software"@en ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -1641,8 +1641,8 @@ kb:Model_61a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_61b a sbd:Model,
-        sbd:resource ;
+kb:Model_61b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Generated the ADAPT (Aumotated Data and Pattern Recognition Tool) software"@en ;
             skos:narrower "Computational Neural Network"@en ] ;
@@ -1653,8 +1653,8 @@ kb:Model_61b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_61c a sbd:Model,
-        sbd:resource ;
+kb:Model_61c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Generated the ADAPT (Aumotated Data and Pattern Recognition Tool). software"@en ;
             skos:narrower "Computational Neural Network"@en ] ;
@@ -1665,8 +1665,8 @@ kb:Model_61c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62a a sbd:Model,
-        sbd:resource ;
+kb:Model_62a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1676,8 +1676,8 @@ kb:Model_62a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62b a sbd:Model,
-        sbd:resource ;
+kb:Model_62b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1687,8 +1687,8 @@ kb:Model_62b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62c a sbd:Model,
-        sbd:resource ;
+kb:Model_62c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1698,8 +1698,8 @@ kb:Model_62c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62d a sbd:Model,
-        sbd:resource ;
+kb:Model_62d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1709,8 +1709,8 @@ kb:Model_62d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62e a sbd:Model,
-        sbd:resource ;
+kb:Model_62e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1720,8 +1720,8 @@ kb:Model_62e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62f a sbd:Model,
-        sbd:resource ;
+kb:Model_62f a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1731,8 +1731,8 @@ kb:Model_62f a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62g a sbd:Model,
-        sbd:resource ;
+kb:Model_62g a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1742,8 +1742,8 @@ kb:Model_62g a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62h a sbd:Model,
-        sbd:resource ;
+kb:Model_62h a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1753,8 +1753,8 @@ kb:Model_62h a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62i a sbd:Model,
-        sbd:resource ;
+kb:Model_62i a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1764,8 +1764,8 @@ kb:Model_62i a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_62j a sbd:Model,
-        sbd:resource ;
+kb:Model_62j a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Regression Analysis"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci010003a> ;
@@ -1775,8 +1775,8 @@ kb:Model_62j a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_63a a sbd:Model,
-        sbd:resource ;
+kb:Model_63a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "crunc v. 4.0 software"@en ;
             skos:narrower "(Multiple Linear Regression)"@en ] ;
@@ -1787,8 +1787,8 @@ kb:Model_63a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_63b a sbd:Model,
-        sbd:resource ;
+kb:Model_63b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "crunc v. 4.0 software"@en ;
             skos:narrower "(Multiple Linear Regression)"@en ] ;
@@ -1799,8 +1799,8 @@ kb:Model_63b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_63c a sbd:Model,
-        sbd:resource ;
+kb:Model_63c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "crunc v. 4.0 software"@en ;
             skos:narrower "(Multiple Linear Regression)"@en ] ;
@@ -1811,8 +1811,8 @@ kb:Model_63c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_64a a sbd:Model,
-        sbd:resource ;
+kb:Model_64a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1021/jp052223n> ;
@@ -1822,8 +1822,8 @@ kb:Model_64a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_64b a sbd:Model,
-        sbd:resource ;
+kb:Model_64b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "Matlab/C software"@en ;
             skos:narrower "Least-Squares Support Vector Machine"@en ] ;
@@ -1834,8 +1834,8 @@ kb:Model_64b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_65 a sbd:Model,
-        sbd:resource ;
+kb:Model_65 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
     dcterms:source <http://doi.org/http://dx.doi.org/10.1016/j.cplett.2006.11.010> ;
@@ -1845,8 +1845,8 @@ kb:Model_65 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_66 a sbd:Model,
-        sbd:resource ;
+kb:Model_66 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.cplett.2007.04.094> ;
@@ -1856,8 +1856,8 @@ kb:Model_66 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_67 a sbd:Model,
-        sbd:resource ;
+kb:Model_67 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.cplett.2007.07.024> ;
@@ -1867,8 +1867,8 @@ kb:Model_67 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_68a a sbd:Model,
-        sbd:resource ;
+kb:Model_68a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.compbiolchem.2007.02.002> ;
@@ -1878,8 +1878,8 @@ kb:Model_68a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_68b a sbd:Model,
-        sbd:resource ;
+kb:Model_68b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.compbiolchem.2007.02.002> ;
@@ -1889,8 +1889,8 @@ kb:Model_68b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_69 a sbd:Model,
-        sbd:resource ;
+kb:Model_69 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Linear regression model"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.cplett.2008.04.013> ;
@@ -1900,8 +1900,8 @@ kb:Model_69 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_7 a sbd:Model,
-        sbd:resource ;
+kb:Model_7 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1021/nn203303c> ;
@@ -1911,8 +1911,8 @@ kb:Model_7 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_70a a sbd:Model,
-        sbd:resource ;
+kb:Model_70a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "MATLAB software"@en ;
             skos:narrower "Genetic Algorithm-based Multivariate Linear Regression"@en ] ;
@@ -1923,8 +1923,8 @@ kb:Model_70a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_70b a sbd:Model,
-        sbd:resource ;
+kb:Model_70b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Three-layer Feed Forward Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1080/15363830701779315> ;
@@ -1934,8 +1934,8 @@ kb:Model_70b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_71 a sbd:Model,
-        sbd:resource ;
+kb:Model_71 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.bmc.2008.10.039> ;
@@ -1945,8 +1945,8 @@ kb:Model_71 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_72 a sbd:Model,
-        sbd:resource ;
+kb:Model_72 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ] ;
     dcterms:source <http://doi.org/10.1007/s10910-008-9514-0> ;
     dcterms:subject <https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_72/Nanoparticle> ;
@@ -1955,8 +1955,8 @@ kb:Model_72 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_73 a sbd:Model,
-        sbd:resource ;
+kb:Model_73 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "CORAL software"@en ;
             skos:narrower "Linear regression model"@en ] ;
@@ -1967,8 +1967,8 @@ kb:Model_73 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_74 a sbd:Model,
-        sbd:resource ;
+kb:Model_74 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "BuildQSAR software"@en ;
             skos:narrower "Gnetic Algorithm and Multiple Linear Regression"@en ] ;
@@ -1979,8 +1979,8 @@ kb:Model_74 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_75a a sbd:Model,
-        sbd:resource ;
+kb:Model_75a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci300482n> ;
@@ -1990,8 +1990,8 @@ kb:Model_75a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_75b a sbd:Model,
-        sbd:resource ;
+kb:Model_75b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci300482n> ;
@@ -2001,8 +2001,8 @@ kb:Model_75b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_75c a sbd:Model,
-        sbd:resource ;
+kb:Model_75c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci300482n> ;
@@ -2012,8 +2012,8 @@ kb:Model_75c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_75d a sbd:Model,
-        sbd:resource ;
+kb:Model_75d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1021/ci300482n> ;
@@ -2023,8 +2023,8 @@ kb:Model_75d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_76 a sbd:Model,
-        sbd:resource ;
+kb:Model_76 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "SPSS v15.0 MATLAB v7s software"@en ;
             skos:narrower "(Multiple Linear Regression)"@en ] ;
@@ -2035,8 +2035,8 @@ kb:Model_76 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_77a a sbd:Model,
-        sbd:resource ;
+kb:Model_77a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1021/mp3006402> ;
@@ -2046,8 +2046,8 @@ kb:Model_77a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_77b a sbd:Model,
-        sbd:resource ;
+kb:Model_77b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1021/mp3006402> ;
@@ -2057,8 +2057,8 @@ kb:Model_77b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_77c a sbd:Model,
-        sbd:resource ;
+kb:Model_77c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1021/mp3006402> ;
@@ -2068,8 +2068,8 @@ kb:Model_77c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_77d a sbd:Model,
-        sbd:resource ;
+kb:Model_77d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Bayesian Regularization Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1021/mp3006402> ;
@@ -2079,8 +2079,8 @@ kb:Model_77d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_78a a sbd:Model,
-        sbd:resource ;
+kb:Model_78a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1007/s11051-013-2028-0> ;
@@ -2090,8 +2090,8 @@ kb:Model_78a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_78b a sbd:Model,
-        sbd:resource ;
+kb:Model_78b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Artificial Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1007/s11051-013-2028-0> ;
@@ -2101,8 +2101,8 @@ kb:Model_78b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_79 a sbd:Model,
-        sbd:resource ;
+kb:Model_79 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1080/1536383X.2012.702157> ;
@@ -2111,8 +2111,8 @@ kb:Model_79 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_8 a sbd:Model,
-        sbd:resource ;
+kb:Model_8 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Decision Tree"@en ] ;
     dcterms:source <http://doi.org/10.1093/toxsci/kfr124> ;
@@ -2122,8 +2122,8 @@ kb:Model_8 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_80a a sbd:Model,
-        sbd:resource ;
+kb:Model_80a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.jiec.2013.08.011> ;
@@ -2133,8 +2133,8 @@ kb:Model_80a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_80b a sbd:Model,
-        sbd:resource ;
+kb:Model_80b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Least-Squares Support Vector Machine"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.jiec.2013.08.011> ;
@@ -2144,8 +2144,8 @@ kb:Model_80b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_81 a sbd:Model,
-        sbd:resource ;
+kb:Model_81 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Square Regression"@en ] ;
     dcterms:source <http://doi.org/10.1021/nn406018q> ;
@@ -2155,8 +2155,8 @@ kb:Model_81 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_82 a sbd:Model,
-        sbd:resource ;
+kb:Model_82 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "BuildQSAR software"@en ;
             skos:narrower "Genetic Algorithm and Multivariate Linear Regression"@en ] ;
@@ -2167,8 +2167,8 @@ kb:Model_82 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_83 a sbd:Model,
-        sbd:resource ;
+kb:Model_83 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "R software"@en ;
             skos:narrower "Multiple Linear Regression"@en ] ;
@@ -2179,8 +2179,8 @@ kb:Model_83 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_84 a sbd:Model,
-        sbd:resource ;
+kb:Model_84 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Genetic Algorithm and Multivariate Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1016/j.molliq.2015.01.028> ;
@@ -2190,8 +2190,8 @@ kb:Model_84 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_85 a sbd:Model,
-        sbd:resource ;
+kb:Model_85 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             bao:BAO_0090006 "QSARINS software"@en ;
             skos:narrower "Genetic Algorithm Multiple Linear Regression"@en ] ;
@@ -2202,8 +2202,8 @@ kb:Model_85 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_86 a sbd:Model,
-        sbd:resource ;
+kb:Model_86 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1007/s10910-015-0581-8> ;
@@ -2213,8 +2213,8 @@ kb:Model_86 a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSPR"@en ] .
 
-kb:Model_87a a sbd:Model,
-        sbd:resource ;
+kb:Model_87a a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2224,8 +2224,8 @@ kb:Model_87a a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87b a sbd:Model,
-        sbd:resource ;
+kb:Model_87b a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "k-Nearest Neighbour"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2235,8 +2235,8 @@ kb:Model_87b a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87c a sbd:Model,
-        sbd:resource ;
+kb:Model_87c a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "General Regression Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2246,8 +2246,8 @@ kb:Model_87c a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87d a sbd:Model,
-        sbd:resource ;
+kb:Model_87d a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Radial Basis Function Neural Networks"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2257,8 +2257,8 @@ kb:Model_87d a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87e a sbd:Model,
-        sbd:resource ;
+kb:Model_87e a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Counter Propagation Neural Network"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2268,8 +2268,8 @@ kb:Model_87e a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87f a sbd:Model,
-        sbd:resource ;
+kb:Model_87f a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Machine radial"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2279,8 +2279,8 @@ kb:Model_87f a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87g a sbd:Model,
-        sbd:resource ;
+kb:Model_87g a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Support Vector Machine linear"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2290,8 +2290,8 @@ kb:Model_87g a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87h a sbd:Model,
-        sbd:resource ;
+kb:Model_87h a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Partial Least Squares"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2301,8 +2301,8 @@ kb:Model_87h a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87i a sbd:Model,
-        sbd:resource ;
+kb:Model_87i a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Projection Pursuit Regression"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2312,8 +2312,8 @@ kb:Model_87i a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87j a sbd:Model,
-        sbd:resource ;
+kb:Model_87j a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multivariate adaptive regression splines (MARS or EARTH)"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2323,8 +2323,8 @@ kb:Model_87j a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87k a sbd:Model,
-        sbd:resource ;
+kb:Model_87k a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest using 6 descriptors"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2334,8 +2334,8 @@ kb:Model_87k a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_87l a sbd:Model,
-        sbd:resource ;
+kb:Model_87l a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Random Forest using 6 descriptors"@en ] ;
     dcterms:source <http://doi.org/10.1080/1062936X.2016.1197310> ;
@@ -2345,8 +2345,8 @@ kb:Model_87l a sbd:Model,
     skos:narrower [ a mesh:D021281 ;
             rdfs:label "QSAR"@en ] .
 
-kb:Model_9 a sbd:Model,
-        sbd:resource ;
+kb:Model_9 a sbd:Model, dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape> ,
+        sbd:Resource ;
     mesh:mapped_from [ a nci:C16275 ;
             skos:narrower "Multiple Linear Regression"@en ] ;
     dcterms:source <http://doi.org/10.1038/nnano.2011.10> ;
@@ -16847,4 +16847,3 @@ npo:NPO_707 rdfs:label "Nanoparticle"@en .
 bao:BAO_0000179 rdfs:label "Endpoint"@en .
 
 npo:NPO_1962 rdfs:label "Surface coating"@en .
-
