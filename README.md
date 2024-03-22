@@ -1,3 +1,5 @@
+[![Validation](https://github.com/h2020-sbd4nano/sbd-data-landscape/actions/workflows/validate.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-landscape/actions/workflows/validate.yml)
+
 # Sbd4Nano Landscape
 
 This repository relates to SbD4Nano Task 2.1.1 "Library of comprehensive data on ENMs properties and bioactivities".
